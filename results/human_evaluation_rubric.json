@@ -1,0 +1,6 @@
+{
+    "coherence": "How logically consistent and clear is the rationale?",
+    "accuracy": "How accurately does the rationale justify the assigned score?",
+    "completeness": "Does the rationale cover all important points?",
+    "language_quality": "Grammar, spelling, and overall readability."
+}
