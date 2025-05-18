@@ -1,14 +1,15 @@
-# zero-shot.py
-
 import json
-import requests
+from mlx_lm import load, generate
 from tqdm import tqdm
 
-OLLAMA_MODEL = "mistral:7b-instruct-v0.2-q2_K"
-OLLAMA_URL = "http://localhost:11434/api/generate"
-DATA_PATH = "data/essay-grading-criteria.json"
-OUTPUT_PATH = "results/zero_shot_results.json"
+# Load Mistral-7B Instruct 4-bit with mlx
+model, tokenizer = load("mlx-community/Mistral-7B-Instruct-v0.2-4bit")
 
+# Define paths
+DATA_PATH = "data/essay-grading-criteria.json"
+OUTPUT_PATH = "results/zero_shot_results_mlx.json"
+
+# Prompt template
 def build_prompt(item):
     mark_scheme_text = "\n".join([f"{k}. {v}" for k, v in item["mark_scheme"].items()])
     prompt = (
@@ -22,15 +23,7 @@ def build_prompt(item):
     )
     return prompt
 
-def call_ollama(prompt):
-    response = requests.post(OLLAMA_URL, json={
-        "model": OLLAMA_MODEL,
-        "prompt": prompt,
-        "stream": False
-    })
-    response.raise_for_status()
-    return response.json()["response"]
-
+# Parse model output to extract score and explanation
 def parse_score(response_text):
     try:
         lines = response_text.strip().splitlines()
@@ -43,30 +36,34 @@ def parse_score(response_text):
         print("Error parsing response:", e)
         return -1, "Failed to parse"
 
-def main():
-    with open(DATA_PATH) as f:
-        dataset = json.load(f)
+# Load JSON dataset
+with open(DATA_PATH, "r") as f:
+    dataset = json.load(f)
 
-    results = []
+# Run inference
+results = []
+for item in tqdm(dataset):
+    prompt = build_prompt(item)
 
-    for item in tqdm(dataset):
-        prompt = build_prompt(item)
-        response_text = call_ollama(prompt)
-        predicted_score, explanation = parse_score(response_text)
+    # Generate response
+    response = generate(model, tokenizer, prompt, max_tokens=200)
+    response_text = response.strip()
 
-        results.append({
-            "question": item["question"],
-            "student_answer": item["student_answer"],
-            "true_score": item["score"],
-            "predicted_score": predicted_score,
-            "rationale": explanation,
-            "raw_response": response_text
-        })
+    # Parse score and rationale
+    predicted_score, explanation = parse_score(response_text)
 
-    with open(OUTPUT_PATH, "w") as f:
-        json.dump(results, f, indent=2)
+    # Store results
+    results.append({
+        "question": item["question"],
+        "student_answer": item["student_answer"],
+        "true_score": item["score"],
+        "predicted_score": predicted_score,
+        "rationale": explanation,
+        "raw_response": response_text
+    })
 
-    print(f"\nResults saved to {OUTPUT_PATH}")
+# Save to JSON
+with open(OUTPUT_PATH, "w") as f:
+    json.dump(results, f, indent=2)
 
-if __name__ == "__main__":
-    main()
+print(f"\n Results saved to {OUTPUT_PATH}")

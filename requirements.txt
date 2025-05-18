@@ -1,6 +1,6 @@
-unsloth
-torch
-datasets
-datasets
-trl
+mlx
+mlx_lm
 transformers
+numpy
+jupyterlab
+ipywidgets

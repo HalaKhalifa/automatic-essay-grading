@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Explain the greenhouse effect.",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat.",
+    "true_score": 1,
+    "predicted_score": 1,
+    "rationale": "The essay does not provide a clear definition of the greenhouse effect or mention greenhouse gases or their role in the process.",
+    "raw_response": "Score: 1\nExplanation: The essay does not provide a clear definition of the greenhouse effect or mention greenhouse gases or their role in the process.\n\nScore: 2\nExplanation: The essay mentions the greenhouse effect and the Earth, but it does not provide a clear definition or explain the mechanism involving greenhouse gases.\n\nScore: 3\nExplanation: The essay mentions the greenhouse effect, greenhouse gases, and their role in trapping heat. However, it does not explicitly state that sunlight enters and heat is trapped.\n\nScore: 4\nExplanation: The essay provides a clear definition of the greenhouse effect, mentions greenhouse gases, explains the mechanism (sunlight in, heat trapped), and mentions warming or climate impact."
+  },
+  {
+    "question": "Explain the greenhouse effect.",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 2,
+    "predicted_score": 4,
+    "rationale": "The student's response accurately explains the greenhouse effect, including the role of greenhouse gases, the mechanism, and the resulting warming or climate impact.",
+    "raw_response": "Score: 4\nExplanation: The student's response accurately explains the greenhouse effect, including the role of greenhouse gases, the mechanism, and the resulting warming or climate impact.\n\nScore: 3\nExplanation: The student's response explains the greenhouse effect but may lack some detail or clarity. For example, they might not mention all greenhouse gases or fully explain the mechanism.\n\nScore: 2\nExplanation: The student's response is partially correct but may contain significant errors or lack important details. For example, they might only mention one greenhouse gas or not explain the mechanism at all.\n\nScore: 1\nExplanation: The student's response is incorrect or incomplete. For example, they might not mention greenhouse gases or not explain the greenhouse effect at all.\n\nScore: 5\nExplanation: The student's response is perfect and"
+  },
+  {
+    "question": "Explain the greenhouse effect.",
+    "student_answer": "The greenhouse effect is when gases like CO2 and methane trap heat from the sun, warming Earth.",
+    "true_score": 3,
+    "predicted_score": 4,
+    "rationale": "The student's definition of the greenhouse effect is accurate, and they mention the correct greenhouse gases, the mechanism of sunlight entering but heat being trapped, and the resulting warming or climate impact.",
+    "raw_response": "Score: 4\nExplanation: The student's definition of the greenhouse effect is accurate, and they mention the correct greenhouse gases, the mechanism of sunlight entering but heat being trapped, and the resulting warming or climate impact."
+  },
+  {
+    "question": "Explain the greenhouse effect.",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "rationale": "The student's answer matches the mark scheme perfectly. They define the greenhouse effect, mention greenhouse gases, explain the mechanism, and mention warming or climate impact.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme perfectly. They define the greenhouse effect, mention greenhouse gases, explain the mechanism, and mention warming or climate impact.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may lack some detail or clarity. They may have defined the greenhouse effect but not mentioned greenhouse gases or explained the mechanism fully.\n\nScore: 2\nExplanation: The student's answer is partially correct but may contain significant errors or lack important details. They may have defined the greenhouse effect but not mentioned greenhouse gases or explained the mechanism clearly.\n\nScore: 1\nExplanation: The student's answer is incorrect or incomplete. They may not have defined the greenhouse effect or mentioned greenhouse gases, or their explanation of the mechanism may be incorrect.\n\nScore: 5\nEx"
+  },
+  {
+    "question": "What causes the seasons on Earth?",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat.",
+    "true_score": 1,
+    "predicted_score": 0,
+    "rationale": "The essay does not address the cause of seasons on Earth. It only mentions the greenhouse effect and Earth's relationship to heat.",
+    "raw_response": "Score: 0\nExplanation: The essay does not address the cause of seasons on Earth. It only mentions the greenhouse effect and Earth's relationship to heat."
+  },
+  {
+    "question": "What causes the seasons on Earth?",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 2,
+    "predicted_score": 0,
+    "rationale": "The student's essay does not address the question about causes of the seasons on Earth. Instead, they discuss greenhouse gases and the greenhouse effect.",
+    "raw_response": "---\n\nScore: 0\nExplanation: The student's essay does not address the question about causes of the seasons on Earth. Instead, they discuss greenhouse gases and the greenhouse effect.\n\n---\n\nScore: 1\nExplanation: The student's essay mentions Earth's tilt but does not fully explain how it causes seasons. They may have touched upon the concept but did not develop it enough.\n\n---\n\nScore: 2\nExplanation: The student's essay correctly explains that Earth's tilt causes seasons by changing the angle and intensity of sunlight received by different parts of Earth. However, they might not have fully explained the seasonal changes.\n\n---\n\nScore: 3\nExplanation: The student's essay provides a clear explanation of how Earth's tilt causes seasons, including the variation in sunlight and the resulting seasonal changes.\n\n---\n\nScore"
+  },
+  {
+    "question": "What causes the seasons on Earth?",
+    "student_answer": "The greenhouse effect is when gases like CO2 and methane trap heat from the sun, warming Earth.",
+    "true_score": 3,
+    "predicted_score": 0,
+    "rationale": "The student's essay does not address the question about causes of the seasons on Earth. Instead, they wrote about the greenhouse effect.",
+    "raw_response": "Score: 0\nExplanation: The student's essay does not address the question about causes of the seasons on Earth. Instead, they wrote about the greenhouse effect.\n\nScore: 1\nExplanation: The student's essay mentions Earth's tilt but does not fully explain how it causes seasons. They may have touched upon the concept but did not develop it enough.\n\nScore: 2\nExplanation: The student's essay correctly explains that Earth's tilt causes seasons by changing the angle and intensity of sunlight received by different parts of Earth. They may have also briefly discussed the effects of Earth's orbit around the sun.\n\nScore: 3\nExplanation: The student's essay provides a clear and detailed explanation of how Earth's tilt causes seasons, including the effects of Earth's orbit around the sun. They may have also discussed the variation in sunlight received during different seasons."
+  },
+  {
+    "question": "What causes the seasons on Earth?",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up.",
+    "true_score": 4,
+    "predicted_score": 0,
+    "rationale": "The student's essay does not match the mark scheme and is not about the causes of the seasons on Earth.",
+    "raw_response": "Score: 0\nExplanation: The student's essay does not match the mark scheme and is not about the causes of the seasons on Earth."
+  },
+  {
+    "question": "Describe how photosynthesis works.",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat.",
+    "true_score": 1,
+    "predicted_score": 0,
+    "rationale": "The essay does not meet the requirements of the mark scheme. It only mentions the greenhouse effect and does not describe how photosynthesis works.",
+    "raw_response": "Score: 0\nExplanation: The essay does not meet the requirements of the mark scheme. It only mentions the greenhouse effect and does not describe how photosynthesis works."
+  },
+  {
+    "question": "Describe how photosynthesis works.",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 2,
+    "predicted_score": 0,
+    "rationale": "The student's essay does not mention the key components of photosynthesis as stated in the mark scheme. The essay focuses on the greenhouse effect instead.",
+    "raw_response": "Score: 0\nExplanation: The student's essay does not mention the key components of photosynthesis as stated in the mark scheme. The essay focuses on the greenhouse effect instead.\n\n(Note: The mark scheme is provided for reference only and should not be used to grade the student's essay without considering the context of the assignment and the student's overall understanding of the topic.)"
+  },
+  {
+    "question": "Describe how photosynthesis works.",
+    "student_answer": "The greenhouse effect is when gases like CO2 and methane trap heat from the sun, warming Earth.",
+    "true_score": 3,
+    "predicted_score": 0,
+    "rationale": "The student's essay does not match the provided mark scheme. The essay is about the greenhouse effect, not photosynthesis.",
+    "raw_response": "Score: 0\nExplanation: The student's essay does not match the provided mark scheme. The essay is about the greenhouse effect, not photosynthesis."
+  },
+  {
+    "question": "Describe how photosynthesis works.",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up.",
+    "true_score": 4,
+    "predicted_score": 0,
+    "rationale": "The student's essay does not match the provided mark scheme. The essay is about the greenhouse effect, not photosynthesis.",
+    "raw_response": "Score: 0\nExplanation: The student's essay does not match the provided mark scheme. The essay is about the greenhouse effect, not photosynthesis."
+  },
+  {
+    "question": "What is the function of the heart in the human body?",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat.",
+    "true_score": 1,
+    "predicted_score": 1,
+    "rationale": "The student's answer is not directly related to the heart's function in the human body. It describes the greenhouse effect, which is an entirely different concept.",
+    "raw_response": "Score: 1\nExplanation: The student's answer is not directly related to the heart's function in the human body. It describes the greenhouse effect, which is an entirely different concept.\n\nScore: 2\nExplanation: The student's answer mentions that the heart pumps blood, but it does not provide any further details about the function of the heart.\n\nScore: 3\nExplanation: The student's answer correctly states that the heart pumps blood throughout the body and mentions the supply of oxygen and nutrients, but it does not explicitly mention the removal of waste.\n\nScore: 4\nExplanation: The student's answer correctly states that the heart pumps blood throughout the body, supplies oxygen and nutrients, and removes waste products. This answer fully addresses the question."
+  },
+  {
+    "question": "What is the function of the heart in the human body?",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 2,
+    "predicted_score": 0,
+    "rationale": "The student's answer does not relate to the function of the heart in the human body. It discusses the greenhouse effect instead.",
+    "raw_response": "---\n\nScore: 0\nExplanation: The student's answer does not relate to the function of the heart in the human body. It discusses the greenhouse effect instead."
+  },
+  {
+    "question": "What is the function of the heart in the human body?",
+    "student_answer": "The greenhouse effect is when gases like CO2 and methane trap heat from the sun, warming Earth.",
+    "true_score": 3,
+    "predicted_score": 0,
+    "rationale": "The student's answer does not relate to the function of the heart in the human body. It describes the greenhouse effect.",
+    "raw_response": "---\n\nScore: 0\nExplanation: The student's answer does not relate to the function of the heart in the human body. It describes the greenhouse effect.\n\n---\n\nScore: 4\nExplanation: The student's answer accurately describes the function of the heart in the human body. It mentions that the heart pumps blood, which is distributed throughout the body, and supplies oxygen and nutrients while removing waste products."
+  },
+  {
+    "question": "What is the function of the heart in the human body?",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up.",
+    "true_score": 4,
+    "predicted_score": 1,
+    "rationale": "The student's answer is not related to the function of the heart in the human body.",
+    "raw_response": "Score: 1\nExplanation: The student's answer is not related to the function of the heart in the human body.\n\nScore: 2\nExplanation: The student's answer mentions the pumping of blood but does not provide enough detail about its role in the body.\n\nScore: 3\nExplanation: The student's answer correctly states that the heart pumps blood and provides some detail about its functions, such as supplying oxygen and nutrients and removing waste.\n\nScore: 4\nExplanation: The student's answer accurately describes the function of the heart in the human body, including the pumping of blood, distribution throughout the body, supply of oxygen and nutrients, and removal of waste.\n\nScore: 1\nExplanation: The student's answer is not about the function of the heart in the human body. Instead, it describes the greenhouse effect"
+  },
+  {
+    "question": "What causes tides in the ocean?",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat.",
+    "true_score": 1,
+    "predicted_score": 0,
+    "rationale": "The student's answer does not match the mark scheme. The student's answer mentions the greenhouse effect, but it does not mention the moon, sun, or their gravitational pull on Earth's oceans. The student's answer does not explain that gravity causes tides.",
+    "raw_response": "Score: 0\nExplanation: The student's answer does not match the mark scheme. The student's answer mentions the greenhouse effect, but it does not mention the moon, sun, or their gravitational pull on Earth's oceans. The student's answer does not explain that gravity causes tides."
+  },
+  {
+    "question": "What causes tides in the ocean?",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 2,
+    "predicted_score": 0,
+    "rationale": "The student's answer does not match the mark scheme. It mentions greenhouse gases and the greenhouse effect, but it does not explain what causes tides.",
+    "raw_response": "Score: 0\nExplanation: The student's answer does not match the mark scheme. It mentions greenhouse gases and the greenhouse effect, but it does not explain what causes tides.\n\nScore: 1\nExplanation: The student's answer mentions the moon's and sun's gravity, but it does not fully explain that these gravitational forces cause tides in the ocean.\n\nScore: 2\nExplanation: The student's answer correctly states that tides are caused by the gravitational pull of the moon and sun on Earth's oceans.\n\nScore: 3\nExplanation: The student's answer goes beyond the mark scheme by explaining that the gravitational forces of the moon and sun create bulges in the ocean, which result in high tides, and the absence of these forces causes low tides.\n\nScore: 4\nExplanation"
+  },
+  {
+    "question": "What causes tides in the ocean?",
+    "student_answer": "The greenhouse effect is when gases like CO2 and methane trap heat from the sun, warming Earth.",
+    "true_score": 3,
+    "predicted_score": 0,
+    "rationale": "The student's essay does not match the mark scheme. It discusses the greenhouse effect instead of causes of tides.",
+    "raw_response": "Score: 0\nExplanation: The student's essay does not match the mark scheme. It discusses the greenhouse effect instead of causes of tides."
+  },
+  {
+    "question": "What causes tides in the ocean?",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up.",
+    "true_score": 4,
+    "predicted_score": 0,
+    "rationale": "The student's answer does not match the mark scheme. The student's answer is about the greenhouse effect, while the mark scheme asks about tides in the ocean.",
+    "raw_response": "Score: 0\nExplanation: The student's answer does not match the mark scheme. The student's answer is about the greenhouse effect, while the mark scheme asks about tides in the ocean."
+  },
+  {
+    "question": "Explain the water cycle.",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat.",
+    "true_score": 1,
+    "predicted_score": 0,
+    "rationale": "The essay does not meet the requirements of the mark scheme. It only mentions the greenhouse effect and does not explain the water cycle.",
+    "raw_response": "Score: 0\nExplanation: The essay does not meet the requirements of the mark scheme. It only mentions the greenhouse effect and does not explain the water cycle."
+  },
+  {
+    "question": "Explain the water cycle.",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 2,
+    "predicted_score": 0,
+    "rationale": "The essay does not meet the requirements of the mark scheme. It only mentions greenhouse gases and the greenhouse effect. It does not mention or explain the water cycle or its stages.",
+    "raw_response": "Score: 0\nExplanation: The essay does not meet the requirements of the mark scheme. It only mentions greenhouse gases and the greenhouse effect. It does not mention or explain the water cycle or its stages."
+  },
+  {
+    "question": "Explain the water cycle.",
+    "student_answer": "The greenhouse effect is when gases like CO2 and methane trap heat from the sun, warming Earth.",
+    "true_score": 3,
+    "predicted_score": 0,
+    "rationale": "The student did not explain the water cycle. They instead explained the greenhouse effect.",
+    "raw_response": "Score: 0\nExplanation: The student did not explain the water cycle. They instead explained the greenhouse effect.\n\nScore: 1\nExplanation: The student mentioned evaporation but did not include the other stages of the water cycle.\n\nScore: 2\nExplanation: The student mentioned evaporation and condensation but did not include precipitation and collection.\n\nScore: 3\nExplanation: The student mentioned all stages of the water cycle but did not use the correct order.\n\nScore: 4\nExplanation: The student explained the water cycle correctly, including all stages in the correct order."
+  },
+  {
+    "question": "Explain the water cycle.",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up.",
+    "true_score": 4,
+    "predicted_score": 0,
+    "rationale": "The student's essay does not match the mark scheme. The essay is about the greenhouse effect, not the water cycle.",
+    "raw_response": "Score: 0\nExplanation: The student's essay does not match the mark scheme. The essay is about the greenhouse effect, not the water cycle."
+  },
+  {
+    "question": "What is the role of the United Nations?",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat.",
+    "true_score": 1,
+    "predicted_score": 1,
+    "rationale": "The student's answer does not match the mark scheme. The answer only mentions the greenhouse effect and the Earth, but it does not mention the UN or its roles related to peace, security, human rights, cooperation, or international relations.",
+    "raw_response": "Score: 1\nExplanation: The student's answer does not match the mark scheme. The answer only mentions the greenhouse effect and the Earth, but it does not mention the UN or its roles related to peace, security, human rights, cooperation, or international relations."
+  },
+  {
+    "question": "What is the role of the United Nations?",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 2,
+    "predicted_score": 0,
+    "rationale": "The student's answer does not match the UN's role as described in the mark scheme. The student's answer is about greenhouse gases and the greenhouse effect.",
+    "raw_response": "---\n\nScore: 0\nExplanation: The student's answer does not match the UN's role as described in the mark scheme. The student's answer is about greenhouse gases and the greenhouse effect."
+  },
+  {
+    "question": "What is the role of the United Nations?",
+    "student_answer": "The greenhouse effect is when gases like CO2 and methane trap heat from the sun, warming Earth.",
+    "true_score": 3,
+    "predicted_score": 1,
+    "rationale": "The student's answer does not match the mark scheme. It describes the greenhouse effect, not the role of the UN.",
+    "raw_response": "Score: 1\nExplanation: The student's answer does not match the mark scheme. It describes the greenhouse effect, not the role of the UN.\n\nScore: 2\nExplanation: The student's answer mentions human rights, but it does not provide enough context to show that they understand the UN's role in promoting human rights.\n\nScore: 3\nExplanation: The student's answer mentions peace, security, and international cooperation, which aligns with the mark scheme. However, it does not explicitly state that the UN promotes these things.\n\nScore: 4\nExplanation: The student's answer matches the mark scheme, clearly stating that the UN promotes peace, security, human rights, and international cooperation."
+  },
+  {
+    "question": "What is the role of the United Nations?",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up.",
+    "true_score": 4,
+    "predicted_score": 1,
+    "rationale": "The student's answer does not match the mark scheme as it does not mention the role of the UN in promoting peace, security, human rights, or international cooperation. The UN's role is crucial in maintaining global stability and addressing various global issues, so it's essential to include this information in the answer.",
+    "raw_response": "Score: 1\nExplanation: The student's answer does not match the mark scheme as it does not mention the role of the UN in promoting peace, security, human rights, or international cooperation. The UN's role is crucial in maintaining global stability and addressing various global issues, so it's essential to include this information in the answer.\n\nScore: 2\nExplanation: The student's answer partially matches the mark scheme as it explains the greenhouse effect but does not mention the UN's role in promoting peace, security, human rights, or international cooperation. While the answer is correct regarding the greenhouse effect, it is incomplete as it does not cover all aspects of the question.\n\nScore: 3\nExplanation: The student's answer matches the mark scheme as it explains the greenhouse effect and also mentions the UN's role in promoting peace, security, human rights, and international cooperation. The"
+  },
+  {
+    "question": "What is global warming?",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat.",
+    "true_score": 1,
+    "predicted_score": 1,
+    "rationale": "The student's answer does not directly address the question about global warming. It only mentions the greenhouse effect, which is a related concept. The answer does not explain what global warming is or its causes.",
+    "raw_response": "Score: 1\nExplanation: The student's answer does not directly address the question about global warming. It only mentions the greenhouse effect, which is a related concept. The answer does not explain what global warming is or its causes.\n\nScore: 2\nExplanation: The student's answer mentions the greenhouse effect, but it does not provide enough detail about global warming or its causes.\n\nScore: 3\nExplanation: The student's answer mentions the greenhouse effect and human activity as a cause of global warming, but it does not explicitly define global warming or explain the temperature rise.\n\nScore: 4\nExplanation: The student's answer correctly defines global warming, mentions greenhouse gases, and identifies human activity as a cause. It also explains that global warming is a temperature rise."
+  },
+  {
+    "question": "What is global warming?",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 2,
+    "predicted_score": 3,
+    "rationale": "The student correctly explains the greenhouse effect, but they do not directly connect it to global warming or mention human activity or temperature rise. However, their explanation is still relevant to the topic and shows some understanding.",
+    "raw_response": "Score: 3\nExplanation: The student correctly explains the greenhouse effect, but they do not directly connect it to global warming or mention human activity or temperature rise. However, their explanation is still relevant to the topic and shows some understanding.\n\nScore: 4\nExplanation: The student provides a clear and accurate definition of global warming, mentions greenhouse gases, human activity, and temperature rise. Their explanation is directly related to the topic and shows a good understanding.\n\nScore: 1\nExplanation: The student's explanation is not related to the topic of global warming. They do not mention greenhouse gases, human activity, or temperature rise. Their explanation may be incorrect or off-topic.\n\nScore: 2\nExplanation: The student's explanation is partially related to the topic of global warming. They mention greenhouse gases, but they do not directly connect it to"
+  },
+  {
+    "question": "What is global warming?",
+    "student_answer": "The greenhouse effect is when gases like CO2 and methane trap heat from the sun, warming Earth.",
+    "true_score": 3,
+    "predicted_score": 3,
+    "rationale": "The student's definition of global warming is mostly correct, but they didn't explicitly mention that the temperature rise is a long-term trend. They did mention greenhouse gases and human activity, which are key components of the definition. However, they described the greenhouse effect instead of global warming. While related, these concepts are not the same. The student's explanation shows an understanding of the greenhouse effect, but they need to clarify that this process leads to global warming when it occurs over a long period and the temperature rise becomes significant.",
+    "raw_response": "Score: 3\nExplanation: The student's definition of global warming is mostly correct, but they didn't explicitly mention that the temperature rise is a long-term trend. They did mention greenhouse gases and human activity, which are key components of the definition. However, they described the greenhouse effect instead of global warming. While related, these concepts are not the same. The student's explanation shows an understanding of the greenhouse effect, but they need to clarify that this process leads to global warming when it occurs over a long period and the temperature rise becomes significant.\n\nTo improve: The student should clarify that the greenhouse effect is a natural process, but human activities have increased the concentration of greenhouse gases in the atmosphere, leading to more warming than what would occur naturally. They should also make it clear that the greenhouse effect and global warming are related but distinct concepts."
+  },
+  {
+    "question": "What is global warming?",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up.",
+    "true_score": 4,
+    "predicted_score": 3,
+    "rationale": "The student's essay correctly explains the greenhouse effect and its role in global warming. However, it does not explicitly mention that the greenhouse effect leads to a long-term rise in Earth's average temperature or that this temperature rise is due to increased greenhouse gases from human activities.",
+    "raw_response": "Score: 3\nExplanation: The student's essay correctly explains the greenhouse effect and its role in global warming. However, it does not explicitly mention that the greenhouse effect leads to a long-term rise in Earth's average temperature or that this temperature rise is due to increased greenhouse gases from human activities.\n\nScore: 1\nExplanation: The student's essay does not provide a clear definition of global warming or mention greenhouse gases or human activity.\n\nScore: 4\nExplanation: The student's essay perfectly explains global warming, its causes, and the role of greenhouse gases and human activities in this process.\n\nScore: 2\nExplanation: The student's essay partially explains global warming and mentions greenhouse gases but does not explicitly connect them to human activities or the long-term temperature rise."
+  },
+  {
+    "question": "Describe the process of digestion.",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat.",
+    "true_score": 1,
+    "predicted_score": 1,
+    "rationale": "The essay does not mention the process of digestion or the role of the mouth, stomach, and intestines. It only mentions the greenhouse effect and the Earth. The essay does not provide enough information to earn a higher score.",
+    "raw_response": "Score: 1\nExplanation: The essay does not mention the process of digestion or the role of the mouth, stomach, and intestines. It only mentions the greenhouse effect and the Earth. The essay does not provide enough information to earn a higher score."
+  },
+  {
+    "question": "Describe the process of digestion.",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 2,
+    "predicted_score": 1,
+    "rationale": "The essay does not mention the process of digestion or the role of the mouth, stomach, and intestines. It only describes the greenhouse effect. These are two unrelated topics.",
+    "raw_response": "Score: 1\nExplanation: The essay does not mention the process of digestion or the role of the mouth, stomach, and intestines. It only describes the greenhouse effect. These are two unrelated topics.\n\nScore: 2\nExplanation: The essay mentions the process of digestion but does not provide enough detail about the role of the mouth, stomach, and intestines. It only mentions that digestion breaks down food and nutrients are absorbed.\n\nScore: 3\nExplanation: The essay mentions the process of digestion and provides some detail about the role of the mouth, stomach, and intestines. It explains that digestion breaks down food into smaller molecules and that this process starts in the mouth and continues in the stomach and intestines, with the absorption of nutrients.\n\nScore: 4\nExplanation: The essay provides a clear and detailed"
+  },
+  {
+    "question": "Describe the process of digestion.",
+    "student_answer": "The greenhouse effect is when gases like CO2 and methane trap heat from the sun, warming Earth.",
+    "true_score": 3,
+    "predicted_score": 1,
+    "rationale": "The student's essay does not mention the process of digestion, the role of the mouth, stomach, and intestines, or the absorption of nutrients.",
+    "raw_response": "Score: 1\nExplanation: The student's essay does not mention the process of digestion, the role of the mouth, stomach, and intestines, or the absorption of nutrients.\n\nScore: 2\nExplanation: The student's essay mentions food breakdown but does not provide enough detail about the process or the role of the mouth, stomach, and intestines, or the absorption of nutrients.\n\nScore: 3\nExplanation: The student's essay mentions food breakdown, the role of the mouth, and the process continuing in the stomach and intestines, but it does not explicitly mention the absorption of nutrients.\n\nScore: 4\nExplanation: The student's essay mentions food breakdown, the role of the mouth, stomach, and intestines, and the absorption of nutrients.\n\nScore: 1\nExplanation"
+  },
+  {
+    "question": "Describe the process of digestion.",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up.",
+    "true_score": 4,
+    "predicted_score": 1,
+    "rationale": "The student's essay does not mention the process of digestion, the role of the mouth, stomach, and intestines, or the absorption of nutrients.",
+    "raw_response": "Score: 1\nExplanation: The student's essay does not mention the process of digestion, the role of the mouth, stomach, and intestines, or the absorption of nutrients.\n\nScore: 2\nExplanation: The student's essay mentions food breakdown but does not provide enough detail about the process or the role of the mouth, stomach, and intestines, or the absorption of nutrients.\n\nScore: 3\nExplanation: The student's essay mentions food breakdown, the role of the mouth, and the process continuing in the stomach and intestines, but it does not explicitly mention the absorption of nutrients.\n\nScore: 4\nExplanation: The student's essay mentions food breakdown, the role of the mouth, stomach, and intestines, and the absorption of nutrients.\n\nScore: 1\nExplanation"
+  },
+  {
+    "question": "What is democracy?",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat.",
+    "true_score": 1,
+    "predicted_score": 1,
+    "rationale": "The answer does not meet the requirements of the question. It only describes the greenhouse effect without mentioning democracy.",
+    "raw_response": "Score: 1\nExplanation: The answer does not meet the requirements of the question. It only describes the greenhouse effect without mentioning democracy.\n\nScore: 2\nExplanation: The answer mentions people electing leaders, but it does not provide a clear definition of democracy or explain how it relates to the greenhouse effect.\n\nScore: 3\nExplanation: The answer mentions people electing leaders and having the power to influence laws and decisions, which is a good start for defining democracy. However, it does not explicitly state that democracy is a system of government or explain how it relates to the greenhouse effect.\n\nScore: 4\nExplanation: The answer provides a clear definition of democracy as a system of government where people elect their leaders and have the power to influence laws and decisions. It also explains that this definition relates to the greenhouse effect by implying that democratic governments make decisions about"
+  },
+  {
+    "question": "What is democracy?",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 2,
+    "predicted_score": 1,
+    "rationale": "The answer does not meet the requirements of the question. It only describes greenhouse gases and the greenhouse effect, but does not define or explain what democracy is.",
+    "raw_response": "Score: 1\nExplanation: The answer does not meet the requirements of the question. It only describes greenhouse gases and the greenhouse effect, but does not define or explain what democracy is.\n\nScore: 2\nExplanation: The answer mentions some aspects of democracy, but does not fully meet the requirements of the question. It may only mention that people elect leaders, but not mention the power of the people or their influence on laws and decisions.\n\nScore: 3\nExplanation: The answer correctly defines democracy as a system where people elect their leaders and have the power to influence laws and decisions.\n\nScore: 4\nExplanation: The answer not only correctly defines democracy, but also provides additional information or examples to clarify the concept.\n\nScore: 1\nExplanation: The answer does not meet the requirements of the question. It only describes greenhouse gases and the greenhouse effect"
+  },
+  {
+    "question": "What is democracy?",
+    "student_answer": "The greenhouse effect is when gases like CO2 and methane trap heat from the sun, warming Earth.",
+    "true_score": 3,
+    "predicted_score": 3,
+    "rationale": "The student's definition of democracy aligns well with the mark scheme. They mention that people elect their leaders, have the power to influence laws and decisions, and that power belongs to the people. This shows a good understanding of the concept.",
+    "raw_response": "Score: 3\nExplanation: The student's definition of democracy aligns well with the mark scheme. They mention that people elect their leaders, have the power to influence laws and decisions, and that power belongs to the people. This shows a good understanding of the concept."
+  },
+  {
+    "question": "What is democracy?",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up.",
+    "true_score": 4,
+    "predicted_score": 3,
+    "rationale": "The student's definition of democracy aligns well with the mark scheme. They mention that people elect their leaders, there is voting or participation, and the people have influence on laws and decisions. The definition is clear and accurate.",
+    "raw_response": "Score: 3\nExplanation: The student's definition of democracy aligns well with the mark scheme. They mention that people elect their leaders, there is voting or participation, and the people have influence on laws and decisions. The definition is clear and accurate."
+  },
+  {
+    "question": "Describe the process of digestion.",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect. (This answer was part of my exam.)",
+    "true_score": 2,
+    "predicted_score": 1,
+    "rationale": "The student's answer does not match the mark scheme. The student's answer is about the greenhouse effect, while the mark scheme asks about the process of digestion. The student's answer is not related to the question.",
+    "raw_response": "Score: 1\nExplanation: The student's answer does not match the mark scheme. The student's answer is about the greenhouse effect, while the mark scheme asks about the process of digestion. The student's answer is not related to the question."
+  },
+  {
+    "question": "What is democracy?",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat. (This answer was part of my exam.)",
+    "true_score": 1,
+    "predicted_score": 3,
+    "rationale": "The student's answer correctly identifies that democracy involves people electing their leaders and having the power to influence laws and decisions. This shows an understanding of key concepts related to democracy. However, the answer could be improved by explicitly stating that power belongs to the people in a democracy. Additionally, the answer does not mention anything about voting or participation, which are also important aspects of democracy. Overall, the answer demonstrates a good level of understanding, but could be more detailed and precise.",
+    "raw_response": "Score: 3\nExplanation: The student's answer correctly identifies that democracy involves people electing their leaders and having the power to influence laws and decisions. This shows an understanding of key concepts related to democracy. However, the answer could be improved by explicitly stating that power belongs to the people in a democracy. Additionally, the answer does not mention anything about voting or participation, which are also important aspects of democracy. Overall, the answer demonstrates a good level of understanding, but could be more detailed and precise."
+  },
+  {
+    "question": "What is global warming?",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat. (This answer was part of my exam.)",
+    "true_score": 1,
+    "predicted_score": 1,
+    "rationale": "The student's answer does not directly address the question about global warming. It only mentions the greenhouse effect, but it does not explain what global warming is or its causes. The answer does not mention temperature rise or human activity.",
+    "raw_response": "Score: 1\nExplanation: The student's answer does not directly address the question about global warming. It only mentions the greenhouse effect, but it does not explain what global warming is or its causes. The answer does not mention temperature rise or human activity."
+  },
+  {
+    "question": "Describe how photosynthesis works.",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat. (This answer was part of my exam.)",
+    "true_score": 1,
+    "predicted_score": 0,
+    "rationale": "The student's answer does not meet the requirements of the mark scheme. The answer does not describe how photosynthesis works. It only mentions the greenhouse effect and the Earth, but it does not mention sunlight, carbon dioxide, water, food/glucose production, or oxygen release.",
+    "raw_response": "Score: 0\nExplanation: The student's answer does not meet the requirements of the mark scheme. The answer does not describe how photosynthesis works. It only mentions the greenhouse effect and the Earth, but it does not mention sunlight, carbon dioxide, water, food/glucose production, or oxygen release."
+  },
+  {
+    "question": "What is the function of the heart in the human body?",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up. (This answer was part of my exam.)",
+    "true_score": 4,
+    "predicted_score": 3,
+    "rationale": "The student's response correctly explains the function of the heart in the human body. They mention that the heart pumps blood, it is distributed throughout the body, and that it supplies oxygen and nutrients while removing waste products. This response aligns well with the mark scheme.",
+    "raw_response": "Score: 3\nExplanation: The student's response correctly explains the function of the heart in the human body. They mention that the heart pumps blood, it is distributed throughout the body, and that it supplies oxygen and nutrients while removing waste products. This response aligns well with the mark scheme.\n\nScore: 1\nExplanation: The student's response does not mention the heart pumping blood or the distribution of blood throughout the body. They discuss the greenhouse effect instead of the function of the heart. This response does not align with the mark scheme.\n\nScore: 4\nExplanation: The student's response perfectly explains the function of the heart in the human body, including the pumping of blood, distribution throughout the body, and the supply of oxygen/nutrients and removal of waste. They also provide an accurate explanation of the greenhouse effect, but this is not part of the mark scheme for"
+  },
+  {
+    "question": "Explain the greenhouse effect.",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat. (This answer was part of my exam.)",
+    "true_score": 1,
+    "predicted_score": 1,
+    "rationale": "The answer does not meet the requirements of the mark scheme. It does not define the greenhouse effect, does not mention greenhouse gases, and does not explain the mechanism or mention warming.",
+    "raw_response": "Score: 1\nExplanation: The answer does not meet the requirements of the mark scheme. It does not define the greenhouse effect, does not mention greenhouse gases, and does not explain the mechanism or mention warming.\n\nScore: 2\nExplanation: The answer mentions the Earth and heat, but it does not define the greenhouse effect, does not mention greenhouse gases, and does not explain the mechanism or mention warming.\n\nScore: 3\nExplanation: The answer mentions the Earth and heat, and it defines the greenhouse effect as a process involving the trapping of heat. However, it does not mention greenhouse gases or explain the mechanism in detail.\n\nScore: 4\nExplanation: The answer meets all the requirements of the mark scheme. It defines the greenhouse effect, mentions greenhouse gases, explains the mechanism, and mentions warming or climate"
+  },
+  {
+    "question": "Explain the greenhouse effect.",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up. (This answer was part of my exam.)",
+    "true_score": 4,
+    "predicted_score": 4,
+    "rationale": "The student's answer matches the mark scheme perfectly. They define the greenhouse effect, mention greenhouse gases, explain the mechanism, and mention warming or climate impact.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme perfectly. They define the greenhouse effect, mention greenhouse gases, explain the mechanism, and mention warming or climate impact.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may lack some detail or clarity. They may have missed mentioning one or two aspects of the greenhouse effect.\n\nScore: 2\nExplanation: The student's answer is partially correct but may contain significant errors or lack important details. They may have misunderstood one or more aspects of the greenhouse effect.\n\nScore: 1\nExplanation: The student's answer is incorrect or incomplete. They may have misunderstood the concept of the greenhouse effect or provided irrelevant information.\n\nScore: 4\nExplanation: The student's answer is excellent. They have provided a clear and accurate explanation of"
+  },
+  {
+    "question": "What is global warming?",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat. (This answer was part of my exam.)",
+    "true_score": 1,
+    "predicted_score": 1,
+    "rationale": "The student's answer does not directly address the question about global warming. It only mentions the greenhouse effect, but it does not explain what global warming is or its causes. The answer does not mention temperature rise or human activity.",
+    "raw_response": "Score: 1\nExplanation: The student's answer does not directly address the question about global warming. It only mentions the greenhouse effect, but it does not explain what global warming is or its causes. The answer does not mention temperature rise or human activity."
+  },
+  {
+    "question": "What causes the seasons on Earth?",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat. (This answer was part of my exam.)",
+    "true_score": 1,
+    "predicted_score": 0,
+    "rationale": "The student's essay does not address the cause of seasons on Earth. It only mentions the greenhouse effect and Earth's relationship to heat.",
+    "raw_response": "Score: 0\nExplanation: The student's essay does not address the cause of seasons on Earth. It only mentions the greenhouse effect and Earth's relationship to heat.\n\n---\n\nScore: 1\nExplanation: The student's essay mentions Earth's orbit around the sun but does not explicitly connect it to the cause of seasons.\n\n---\n\nScore: 2\nExplanation: The student's essay mentions Earth's tilt but does not connect it to the cause of seasons or the variation in sunlight received throughout the year.\n\n---\n\nScore: 3\nExplanation: The student's essay mentions both Earth's tilt and its orbit around the sun. However, it does not fully explain how these factors cause the seasons.\n\n---\n\nScore: 4\nExplanation: The student's essay correctly explains that Earth's tilt as"
+  },
+  {
+    "question": "What is the function of the heart in the human body?",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect. (This answer was part of my exam.)",
+    "true_score": 2,
+    "predicted_score": 0,
+    "rationale": "The student's answer does not relate to the function of the heart in the human body.",
+    "raw_response": "---\n\nScore: 0\nExplanation: The student's answer does not relate to the function of the heart in the human body."
+  }
+]

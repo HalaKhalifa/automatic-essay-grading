@@ -1,3 +1,4 @@
+# zero_shot_evaluation_metrics.py
 import json
 import numpy as np
 import pandas as pd
@@ -44,7 +45,7 @@ def compute_metrics(true, pred):
 
 def main():
     # Load main results
-    results_path = "results/zero_shot_results.json"
+    results_path = "results/zero_shot_results_mlx.json"
     data = load_jsonl(results_path)
     
     # Filter valid entries with numeric predicted scores
@@ -109,7 +110,7 @@ def main():
     print(f"Exact Match Accuracy: {accuracy:.4f}")
     print(f"Mean Absolute Error: {mae:.4f}")
     print(f"Quadratic Weighted Kappa: {qwk:.4f}")
-    print(f"Detailed Classification Report:{class_report}")
+    print(f"Detailed Classification Report:\n{class_report}")
     if rationale_sim is not None:
         print(f"Average Rationale Cosine Similarity: {rationale_sim:.4f}")
     else:
@@ -126,8 +127,6 @@ def main():
         print(f"  Accuracy: {bert_metrics['accuracy']:.4f}")
         print(f"  MAE: {bert_metrics['mae']:.4f}")
         print(f"  QWK: {bert_metrics['qwk']:.4f}")
-
-    print("\nHuman Evaluation Rubric saved as 'human_evaluation_rubric.json'.")
 
 if __name__ == "__main__":
     main()
