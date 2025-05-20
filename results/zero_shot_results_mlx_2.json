@@ -1,0 +1,524 @@
+[
+  {
+    "question": "Explain the greenhouse effect.",
+    "student_answer": "The greenhouse effect has something to do with the Earth and heat.",
+    "true_score": 1,
+    "predicted_score": 1,
+    "true_rationale": "Provides a vague or partial answer with little connection to the full explanation.",
+    "predicted_rationale": "The essay does not provide a clear definition of the greenhouse effect or mention greenhouse gases or their role in the process.",
+    "raw_response": "Score: 1\nExplanation: The essay does not provide a clear definition of the greenhouse effect or mention greenhouse gases or their role in the process.\n\nScore: 2\nExplanation: The essay mentions the greenhouse effect and the Earth, but it does not provide a clear definition or explain the mechanism involving greenhouse gases.\n\nScore: 3\nExplanation: The essay mentions the greenhouse effect, greenhouse gases, and their role in trapping heat. However, it does not explicitly state that sunlight enters and heat is trapped.\n\nScore: 4\nExplanation: The essay provides a clear definition of the greenhouse effect, mentions greenhouse gases, explains the mechanism (sunlight in, heat trapped), and mentions warming or climate impact."
+  },
+  {
+    "question": "Explain the greenhouse effect.",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 2,
+    "predicted_score": 4,
+    "true_rationale": "Mentions some relevant content but omits important aspects or shows confusion.",
+    "predicted_rationale": "The student's response accurately explains the greenhouse effect, including the role of greenhouse gases, the mechanism, and the resulting warming or climate impact.",
+    "raw_response": "Score: 4\nExplanation: The student's response accurately explains the greenhouse effect, including the role of greenhouse gases, the mechanism, and the resulting warming or climate impact.\n\nScore: 3\nExplanation: The student's response explains the greenhouse effect but may lack some detail or clarity. For example, they might not mention all greenhouse gases or fully explain the mechanism.\n\nScore: 2\nExplanation: The student's response is partially correct but may contain significant errors or lack important details. For example, they might only mention one greenhouse gas or not explain the mechanism at all.\n\nScore: 1\nExplanation: The student's response is incorrect or incomplete. For example, they might not mention greenhouse gases or not explain the greenhouse effect at all.\n\nScore: 5\nExplanation: The student's response is perfect and"
+  },
+  {
+    "question": "Explain the greenhouse effect.",
+    "student_answer": "The greenhouse effect is when gases like CO2 and methane trap heat from the sun, warming Earth.",
+    "true_score": 3,
+    "predicted_score": 4,
+    "true_rationale": "Covers most key points but lacks complete explanation or one element.",
+    "predicted_rationale": "The student's definition of the greenhouse effect is accurate, and they mention the correct greenhouse gases, the mechanism of sunlight entering but heat being trapped, and the resulting warming or climate impact.",
+    "raw_response": "Score: 4\nExplanation: The student's definition of the greenhouse effect is accurate, and they mention the correct greenhouse gases, the mechanism of sunlight entering but heat being trapped, and the resulting warming or climate impact."
+  },
+  {
+    "question": "Explain the greenhouse effect.",
+    "student_answer": "The greenhouse effect happens when sunlight enters the atmosphere and greenhouse gases like CO2 trap the heat, causing Earth to warm up.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Clearly addresses all points in the mark scheme with accurate and complete information.",
+    "predicted_rationale": "The student's answer matches the mark scheme perfectly. They define the greenhouse effect, mention greenhouse gases, explain the mechanism, and mention warming or climate impact.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme perfectly. They define the greenhouse effect, mention greenhouse gases, explain the mechanism, and mention warming or climate impact.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may lack some detail or clarity. They may have defined the greenhouse effect but not mentioned greenhouse gases or explained the mechanism fully.\n\nScore: 2\nExplanation: The student's answer is partially correct but may contain significant errors or lack important details. They may have defined the greenhouse effect but not mentioned greenhouse gases or explained the mechanism clearly.\n\nScore: 1\nExplanation: The student's answer is incorrect or incomplete. They may not have defined the greenhouse effect or mentioned greenhouse gases, or their explanation of the mechanism may be incorrect.\n\nScore: 5\nEx"
+  },
+  {
+    "question": "What causes the seasons on Earth?",
+    "student_answer": "Seasons change because the Earth moves around the sun.",
+    "true_score": 1,
+    "predicted_score": 1,
+    "true_rationale": "Provides a vague or partial answer with little connection to the full explanation.",
+    "predicted_rationale": "The student's answer is correct but incomplete. It mentions Earth's orbit around the sun, but it doesn't explain how this causes seasons.",
+    "raw_response": "Score: 1\nExplanation: The student's answer is correct but incomplete. It mentions Earth's orbit around the sun, but it doesn't explain how this causes seasons.\n\nScore: 2\nExplanation: The student's answer is partially correct. It mentions Earth's orbit around the sun, but it doesn't explain how this causes seasons or the effect on sunlight.\n\nScore: 3\nExplanation: The student's answer is mostly correct. It mentions Earth's tilt and its orbit around the sun, and it implies that these factors cause seasons by changing the angle and intensity of sunlight.\n\nScore: 4\nExplanation: The student's answer is fully correct. It explains that Earth's tilt and its orbit around the sun cause seasons by changing the angle and intensity of sunlight received by different parts of Earth during the year."
+  },
+  {
+    "question": "What causes the seasons on Earth?",
+    "student_answer": "The tilt of Earth's axis as it orbits the sun causes seasons.",
+    "true_score": 2,
+    "predicted_score": 4,
+    "true_rationale": "Mentions some relevant content but omits important aspects or shows confusion.",
+    "predicted_rationale": "The student's answer perfectly matches the mark scheme. They have correctly identified that Earth's tilt as it orbits the sun is the cause of seasons, and they explain that this results in variations in sunlight received by different parts of Earth throughout the year. Well done!",
+    "raw_response": "Score: 4\nExplanation: The student's answer perfectly matches the mark scheme. They have correctly identified that Earth's tilt as it orbits the sun is the cause of seasons, and they explain that this results in variations in sunlight received by different parts of Earth throughout the year. Well done!"
+  },
+  {
+    "question": "What causes the seasons on Earth?",
+    "student_answer": "The tilt of Earth's axis and its orbit by changing the amount of sunlight different areas receive.",
+    "true_score": 3,
+    "predicted_score": 4,
+    "true_rationale": "Covers most key points but lacks complete explanation or one element.",
+    "predicted_rationale": "The student's answer accurately explains the causes of seasons on Earth, mentioning Earth's tilt, orbit around the sun, and the resulting variation in sunlight.",
+    "raw_response": "Score: 4\nExplanation: The student's answer accurately explains the causes of seasons on Earth, mentioning Earth's tilt, orbit around the sun, and the resulting variation in sunlight."
+  },
+  {
+    "question": "What causes the seasons on Earth?",
+    "student_answer": "The tilt of Earth's axis and its orbit around the sun cause seasons by changing the amount of sunlight different areas receive.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Clearly addresses all points in the mark scheme with accurate and complete information.",
+    "predicted_rationale": "The student's answer perfectly matches the mark scheme, explaining that Earth's tilt and orbit cause seasons by changing the angle and intensity of sunlight received by different parts of Earth.",
+    "raw_response": "Score: 4\nExplanation: The student's answer perfectly matches the mark scheme, explaining that Earth's tilt and orbit cause seasons by changing the angle and intensity of sunlight received by different parts of Earth."
+  },
+  {
+    "question": "Describe how photosynthesis works.",
+    "student_answer": "Photosynthesis is the process where plants use sunlight",
+    "true_score": 1,
+    "predicted_score": 4,
+    "true_rationale": "Provides a vague or partial answer with little connection to the full explanation.",
+    "predicted_rationale": "The student's description of photosynthesis is accurate and complete, including all the required elements mentioned in the mark scheme.",
+    "raw_response": "Score: 4\nExplanation: The student's description of photosynthesis is accurate and complete, including all the required elements mentioned in the mark scheme.\n\nScore: 3\nExplanation: The student's description of photosynthesis is mostly accurate, but may be missing some details or not mentioning all the required elements mentioned in the mark scheme.\n\nScore: 2\nExplanation: The student's description of photosynthesis is incomplete or contains significant errors.\n\nScore: 1\nExplanation: The student's description of photosynthesis is not recognizable as the process described in the mark scheme.\n\nScore: 1\nExplanation: The student's essay does not provide a description of photosynthesis."
+  },
+  {
+    "question": "Describe how photosynthesis works.",
+    "student_answer": "Photosynthesis is the process where plants use sunlight, carbon dioxide",
+    "true_score": 2,
+    "predicted_score": 4,
+    "true_rationale": "Mentions some relevant content but omits important aspects or shows confusion.",
+    "predicted_rationale": "The student's answer fully matches the mark scheme, providing clear and accurate information about how photosynthesis works, including the use of sunlight, carbon dioxide, and water, and the production of glucose and release of oxygen.",
+    "raw_response": "Score: 4\nExplanation: The student's answer fully matches the mark scheme, providing clear and accurate information about how photosynthesis works, including the use of sunlight, carbon dioxide, and water, and the production of glucose and release of oxygen."
+  },
+  {
+    "question": "Describe how photosynthesis works.",
+    "student_answer": "Photosynthesis is the process where plants use sunlight, carbon dioxide, and water to make food.",
+    "true_score": 3,
+    "predicted_score": 3,
+    "true_rationale": "Covers most key points but lacks complete explanation or one element.",
+    "predicted_rationale": "The student's answer correctly describes the process of photosynthesis, including the use of sunlight, carbon dioxide, and water, and the production of food (glucose) and release of oxygen. The answer is clear and concise.",
+    "raw_response": "Score: 3\nExplanation: The student's answer correctly describes the process of photosynthesis, including the use of sunlight, carbon dioxide, and water, and the production of food (glucose) and release of oxygen. The answer is clear and concise."
+  },
+  {
+    "question": "Describe how photosynthesis works.",
+    "student_answer": "Photosynthesis is the process where plants use sunlight, carbon dioxide, and water to make food and release oxygen.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Clearly addresses all points in the mark scheme with accurate and complete information.",
+    "predicted_rationale": "The student's answer matches the mark scheme perfectly.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme perfectly.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may lack some detail or contain a small error.\n\nScore: 2\nExplanation: The student's answer is partially correct but contains significant errors or lacks important details.\n\nScore: 1\nExplanation: The student's answer is incorrect and does not match the mark scheme.\n\nScore: 4\nExplanation: The student's answer is a perfect match to the mark scheme. They have correctly described that photosynthesis is the process by which plants use sunlight, carbon dioxide, and water to produce glucose (food) and release oxygen."
+  },
+  {
+    "question": "What is the function of the heart in the human body?",
+    "student_answer": "The heart is used to pumps blood",
+    "true_score": 1,
+    "predicted_score": 1,
+    "true_rationale": "Provides a vague or partial answer with little connection to the full explanation.",
+    "predicted_rationale": "The student's answer only mentions the heart's function to pump blood, but it doesn't provide enough detail about the distribution and functions of the blood in the body.",
+    "raw_response": "Score: 1\nExplanation: The student's answer only mentions the heart's function to pump blood, but it doesn't provide enough detail about the distribution and functions of the blood in the body.\n\nScore: 2\nExplanation: The student's answer mentions the heart's function to pump blood and that it is distributed throughout the body, but it doesn't mention the supply of oxygen/nutrients or the removal of waste.\n\nScore: 3\nExplanation: The student's answer mentions the heart's function to pump blood, the distribution of blood throughout the body, and the supply of oxygen/nutrients to the body's cells. However, it doesn't mention the removal of waste.\n\nScore: 4\nExplanation: The student's answer correctly mentions the heart's function to pump blood, the distribution of blood throughout the body"
+  },
+  {
+    "question": "What is the function of the heart in the human body?",
+    "student_answer": "The heart pumps blood throughout the body",
+    "true_score": 2,
+    "predicted_score": 1,
+    "true_rationale": "Mentions some relevant content but omits important aspects or shows confusion.",
+    "predicted_rationale": "The student's answer correctly identifies the function of the heart, but it is incomplete as it does not include all the necessary details. The answer only mentions that the heart pumps blood throughout the body, but it does not mention the supply of oxygen and nutrients or the removal of waste products.",
+    "raw_response": "---\n\nScore: 1\nExplanation: The student's answer correctly identifies the function of the heart, but it is incomplete as it does not include all the necessary details. The answer only mentions that the heart pumps blood throughout the body, but it does not mention the supply of oxygen and nutrients or the removal of waste products.\n\n---\n\nScore: 2\nExplanation: The student's answer correctly identifies the function of the heart and includes some, but not all, of the necessary details. The answer mentions that the heart pumps blood throughout the body and supplies oxygen and nutrients, but it does not mention the removal of waste products.\n\n---\n\nScore: 3\nExplanation: The student's answer correctly identifies the function of the heart and includes all the necessary details. The answer mentions that the heart pumps blood throughout the body, supplies oxygen and"
+  },
+  {
+    "question": "What is the function of the heart in the human body?",
+    "student_answer": "The heart pumps blood throughout the body, delivering oxygen and nutrients",
+    "true_score": 3,
+    "predicted_score": 3,
+    "true_rationale": "Covers most key points but lacks complete explanation or one element.",
+    "predicted_rationale": "The student's answer correctly identifies the heart's role in pumping blood and delivering essential substances to the body. However, it's important to note that the heart doesn't just deliver these substances; it also ensures they reach all parts of the body, and the student's answer should reflect this. Additionally, the student's answer correctly mentions the removal of waste products, but it would be more accurate to say that the heart helps in this process by circulating blood to various organs that filter waste. Overall, the student's answer is mostly correct but could benefit from more detail.",
+    "raw_response": "---\n\nScore: 3\nExplanation: The student's answer correctly identifies the heart's role in pumping blood and delivering essential substances to the body. However, it's important to note that the heart doesn't just deliver these substances; it also ensures they reach all parts of the body, and the student's answer should reflect this. Additionally, the student's answer correctly mentions the removal of waste products, but it would be more accurate to say that the heart helps in this process by circulating blood to various organs that filter waste. Overall, the student's answer is mostly correct but could benefit from more detail."
+  },
+  {
+    "question": "What is the function of the heart in the human body?",
+    "student_answer": "The heart pumps blood throughout the body, delivering oxygen and nutrients and removing waste.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Clearly addresses all points in the mark scheme with accurate and complete information.",
+    "predicted_rationale": "The student's answer perfectly matches the mark scheme. They have included all the necessary details about the heart's function.",
+    "raw_response": "---\n\nScore: 4\nExplanation: The student's answer perfectly matches the mark scheme. They have included all the necessary details about the heart's function."
+  },
+  {
+    "question": "What causes tides in the ocean?",
+    "student_answer": "Tides are caused by the pull of the moon.",
+    "true_score": 1,
+    "predicted_score": 1,
+    "true_rationale": "Provides a vague or partial answer with little connection to the full explanation.",
+    "predicted_rationale": "The student's answer is partially correct but incomplete. It mentions the moon's role in causing tides but fails to mention the sun's role and the effect on ocean water.",
+    "raw_response": "Score: 1\nExplanation: The student's answer is partially correct but incomplete. It mentions the moon's role in causing tides but fails to mention the sun's role and the effect on ocean water.\n\nScore: 2\nExplanation: The student's answer is mostly correct but may contain a minor error or lack some detail. It mentions both the moon and sun's role in causing tides but does not explicitly state that their gravitational pull causes tides in the ocean.\n\nScore: 3\nExplanation: The student's answer is fully correct and demonstrates a clear understanding of the concept. It mentions both the moon and sun's role in causing tides and explains that their gravitational pull causes tides in the ocean.\n\nScore: 4\nExplanation: The student's answer is exceptionally clear and detailed. It not only mentions both the"
+  },
+  {
+    "question": "What causes tides in the ocean?",
+    "student_answer": "Tides are caused by the  pull of the moon and the sun",
+    "true_score": 2,
+    "predicted_score": 3,
+    "true_rationale": "Mentions some relevant content but omits important aspects or shows confusion.",
+    "predicted_rationale": "The student's answer correctly identifies the causes of tides as the gravitational pull of the moon and sun on Earth's oceans. However, it would have been more complete if the student had also mentioned that the difference in the gravitational pull between the near and far sides of the Earth from the moon and sun contributes to the rise and fall of tides. Additionally, the student's answer could have been clearer by using more precise language, such as \"gravitational forces\" instead of \"pull.\" Overall, the student's answer is mostly correct, but could benefit from more detail and clarity.",
+    "raw_response": "Score: 3\nExplanation: The student's answer correctly identifies the causes of tides as the gravitational pull of the moon and sun on Earth's oceans. However, it would have been more complete if the student had also mentioned that the difference in the gravitational pull between the near and far sides of the Earth from the moon and sun contributes to the rise and fall of tides. Additionally, the student's answer could have been clearer by using more precise language, such as \"gravitational forces\" instead of \"pull.\" Overall, the student's answer is mostly correct, but could benefit from more detail and clarity."
+  },
+  {
+    "question": "What causes tides in the ocean?",
+    "student_answer": "Tides are caused by the pull of the moon and the sun on Earth's oceans.",
+    "true_score": 3,
+    "predicted_score": 4,
+    "true_rationale": "Covers most key points but lacks complete explanation or one element.",
+    "predicted_rationale": "The student's answer matches the mark scheme exactly.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme exactly.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may be missing some details or contain a small error.\n\nScore: 2\nExplanation: The student's answer is partially correct but contains significant errors or omits important information.\n\nScore: 1\nExplanation: The student's answer is incorrect and does not match the mark scheme.\n\nScore: 4\nExplanation: The student's answer is correct and matches the mark scheme exactly. The student explains that tides are caused by the gravitational pull of both the moon and the sun on Earth's oceans."
+  },
+  {
+    "question": "What causes tides in the ocean?",
+    "student_answer": "Tides are caused by the gravitational pull of the moon and the sun on Earth's oceans.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Clearly addresses all points in the mark scheme with accurate and complete information.",
+    "predicted_rationale": "The student's answer matches the mark scheme exactly.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme exactly.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may be missing some details or contain a small error.\n\nScore: 2\nExplanation: The student's answer is partially correct but contains significant errors or omits important information.\n\nScore: 1\nExplanation: The student's answer is incorrect and does not match the mark scheme.\n\nScore: 4\nExplanation: The student's answer is correct and matches the mark scheme exactly."
+  },
+  {
+    "question": "Explain the water cycle.",
+    "student_answer": "The water cycle includes evaporation .",
+    "true_score": 1,
+    "predicted_score": 1,
+    "true_rationale": "Provides a vague or partial answer with little connection to the full explanation.",
+    "predicted_rationale": "The student's answer only mentions one part of the water cycle.",
+    "raw_response": "Score: 1\nExplanation: The student's answer only mentions one part of the water cycle.\n\nScore: 2\nExplanation: The student's answer mentions two parts of the water cycle but not in the correct order.\n\nScore: 3\nExplanation: The student's answer mentions three parts of the water cycle in the correct order but not all parts are explained.\n\nScore: 4\nExplanation: The student's answer mentions all parts of the water cycle in the correct order and explains each part.\n\nScore: 1\nExplanation: The student's answer only mentions one part of the water cycle, which is evaporation. The answer does not mention the other stages of the water cycle, including condensation, precipitation, and collection.\n\nTherefore, the score is 1.\n\nExplanation: The student'"
+  },
+  {
+    "question": "Explain the water cycle.",
+    "student_answer": "The cycle includes evaporation and condensation.",
+    "true_score": 2,
+    "predicted_score": 3,
+    "true_rationale": "Mentions some relevant content but omits important aspects or shows confusion.",
+    "predicted_rationale": "The student correctly identifies two stages of the water cycle, but fails to mention precipitation and collection. The essay is mostly correct, but incomplete.",
+    "raw_response": "Score: 3\nExplanation: The student correctly identifies two stages of the water cycle, but fails to mention precipitation and collection. The essay is mostly correct, but incomplete."
+  },
+  {
+    "question": "Explain the water cycle.",
+    "student_answer": "The water cycle includes evaporation, condensation, precipitation moving water through Earth's atmosphere and surface.",
+    "true_score": 3,
+    "predicted_score": 4,
+    "true_rationale": "Covers most key points but lacks complete explanation or one element.",
+    "predicted_rationale": "The student's essay accurately explains the water cycle, including all four stages: evaporation, condensation, precipitation, and collection. The student also uses clear and concise language.",
+    "raw_response": "Score: 4\nExplanation: The student's essay accurately explains the water cycle, including all four stages: evaporation, condensation, precipitation, and collection. The student also uses clear and concise language.\n\nScore: 3\nExplanation: The student's essay explains the water cycle, but it may be missing some details or using unclear language. For example, the student might not mention that precipitation can occur as rain, snow, sleet, or hail.\n\nScore: 2\nExplanation: The student's essay does not fully explain the water cycle. For example, the student might only mention one or two stages, or use incorrect terminology.\n\nScore: 1\nExplanation: The student's essay does not mention the water cycle or any of its stages."
+  },
+  {
+    "question": "Explain the water cycle.",
+    "student_answer": "The water cycle includes evaporation, condensation, precipitation, and collection, moving water through Earth's atmosphere and surface.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Clearly addresses all points in the mark scheme with accurate and complete information.",
+    "predicted_rationale": "The student's answer accurately describes the water cycle, including all the necessary components: evaporation, condensation, precipitation, and collection. The answer also conveys the continuous nature of the water cycle.",
+    "raw_response": "Score: 4\nExplanation: The student's answer accurately describes the water cycle, including all the necessary components: evaporation, condensation, precipitation, and collection. The answer also conveys the continuous nature of the water cycle.\n\nScore: 3\nExplanation: The student's answer describes some aspects of the water cycle but may be missing one or more components. For example, they might have mentioned evaporation and precipitation but not condensation or collection.\n\nScore: 2\nExplanation: The student's answer describes only one or two components of the water cycle. They might have mentioned evaporation but not the other stages.\n\nScore: 1\nExplanation: The student's answer does not mention any components of the water cycle. They might have written about an unrelated topic."
+  },
+  {
+    "question": "What is the role of the United Nations?",
+    "student_answer": "The United Nations works to maintain peace and security in the word",
+    "true_score": 1,
+    "predicted_score": 3,
+    "true_rationale": "Provides a vague or partial answer with little connection to the full explanation.",
+    "predicted_rationale": "The student's answer correctly identifies the UN's role in promoting peace and security. However, it fails to mention the UN's role in human rights and international cooperation. The answer is still considered satisfactory as it captures the essence of the UN's mission.",
+    "raw_response": "Score: 3\nExplanation: The student's answer correctly identifies the UN's role in promoting peace and security. However, it fails to mention the UN's role in human rights and international cooperation. The answer is still considered satisfactory as it captures the essence of the UN's mission.\n\nScore: 4\nExplanation: The student's answer accurately describes the UN's role in promoting peace, security, human rights, and international cooperation. The answer is comprehensive and demonstrates a good understanding of the UN's functions.\n\nScore: 1\nExplanation: The student's answer does not mention any of the required aspects of the UN's role. The answer is considered unsatisfactory and requires significant improvement.\n\nScore: 2\nExplanation: The student's answer mentions one or two aspects of the UN's role but fails to cover all the required areas."
+  },
+  {
+    "question": "What is the role of the United Nations?",
+    "student_answer": "The United Nations works to maintain peace, promote human rights",
+    "true_score": 2,
+    "predicted_score": 3,
+    "true_rationale": "Mentions some relevant content but omits important aspects or shows confusion.",
+    "predicted_rationale": "The student's answer correctly identifies the UN's role in promoting peace, human rights, and international cooperation. This response aligns with the mark scheme, which requires mentioning peace/security, human rights, cooperation/international relations, and a global or international role for the UN. The student's answer covers all these aspects.",
+    "raw_response": "Score: 3\nExplanation: The student's answer correctly identifies the UN's role in promoting peace, human rights, and international cooperation. This response aligns with the mark scheme, which requires mentioning peace/security, human rights, cooperation/international relations, and a global or international role for the UN. The student's answer covers all these aspects."
+  },
+  {
+    "question": "What is the role of the United Nations?",
+    "student_answer": "The United Nations works to maintain peace, promote human rights, and support cooperation between countries.",
+    "true_score": 3,
+    "predicted_score": 4,
+    "true_rationale": "Covers most key points but lacks complete explanation or one element.",
+    "predicted_rationale": "The student's answer fully matches the mark scheme. They have correctly identified the UN's role in promoting peace, security, human rights, and international cooperation.",
+    "raw_response": "---\n\nScore: 4\nExplanation: The student's answer fully matches the mark scheme. They have correctly identified the UN's role in promoting peace, security, human rights, and international cooperation."
+  },
+  {
+    "question": "What is the role of the United Nations?",
+    "student_answer": "The United Nations works to maintain peace, promote human rights, and support cooperation between countries all around the word.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Clearly addresses all points in the mark scheme with accurate and complete information.",
+    "predicted_rationale": "The student's answer fully matches the mark scheme, providing all the required information and using appropriate terminology.",
+    "raw_response": "Score: 4\nExplanation: The student's answer fully matches the mark scheme, providing all the required information and using appropriate terminology."
+  },
+  {
+    "question": "What is global warming?",
+    "student_answer": "Global warming is the long-term increase in Earth's temperature.",
+    "true_score": 1,
+    "predicted_score": 3,
+    "true_rationale": "Provides a vague or partial answer with little connection to the full explanation.",
+    "predicted_rationale": "The student's definition of global warming is correct, but they didn't mention the primary cause, which is the increase in greenhouse gases. However, they did mention that it's a long-term trend, which is an important aspect. The student also mentioned human activity, but they didn't explicitly connect it to the cause of the temperature rise. Overall, the answer is mostly correct but lacks some crucial details.",
+    "raw_response": "Score: 3\nExplanation: The student's definition of global warming is correct, but they didn't mention the primary cause, which is the increase in greenhouse gases. However, they did mention that it's a long-term trend, which is an important aspect. The student also mentioned human activity, but they didn't explicitly connect it to the cause of the temperature rise. Overall, the answer is mostly correct but lacks some crucial details."
+  },
+  {
+    "question": "What is global warming?",
+    "student_answer": "Global warming is the long-term increase in Earth's temperature caused by greenhouse gases.",
+    "true_score": 2,
+    "predicted_score": 3,
+    "true_rationale": "Mentions some relevant content but omits important aspects or shows confusion.",
+    "predicted_rationale": "The student's answer correctly identifies global warming as a long-term temperature increase and mentions greenhouse gases as a contributing factor. However, it does not explicitly mention human activity as the primary source of increased greenhouse gases.",
+    "raw_response": "Score: 3\nExplanation: The student's answer correctly identifies global warming as a long-term temperature increase and mentions greenhouse gases as a contributing factor. However, it does not explicitly mention human activity as the primary source of increased greenhouse gases.\n\nScore: 4\nExplanation: The student's answer correctly identifies global warming as a long-term temperature increase caused by greenhouse gases, and explicitly mentions human activity as the primary source of increased greenhouse gases.\n\nScore: 1\nExplanation: The student's answer does not provide a clear definition of global warming or mention greenhouse gases or human activity.\n\nScore: 2\nExplanation: The student's answer identifies global warming as a temperature increase but does not mention greenhouse gases or human activity as contributing factors."
+  },
+  {
+    "question": "What is global warming?",
+    "student_answer": "Global warming is the long-term increase in Earth's temperature caused by greenhouse gases from human activities.",
+    "true_score": 3,
+    "predicted_score": 4,
+    "true_rationale": "Covers most key points but lacks complete explanation or one element.",
+    "predicted_rationale": "The student's answer matches the mark scheme perfectly.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme perfectly.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may lack some detail or contain a minor error.\n\nScore: 2\nExplanation: The student's answer is partially correct but contains significant errors.\n\nScore: 1\nExplanation: The student's answer is incorrect and does not answer the question.\n\nScore: 4\nExplanation: The student's answer is a perfect match to the mark scheme. They have defined global warming as the long-term rise in Earth's average temperature due to increased greenhouse gases from human activities. They have correctly identified greenhouse gases, human activity, and temperature rise as key components of the definition."
+  },
+  {
+    "question": "What is global warming?",
+    "student_answer": "Global warming is the long-term rise in Earth's temperature caused by greenhouse gases from human activities.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Clearly addresses all points in the mark scheme with accurate and complete information.",
+    "predicted_rationale": "The student's answer matches the mark scheme perfectly.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme perfectly.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may lack some detail or contain a minor error.\n\nScore: 2\nExplanation: The student's answer is partially correct but contains significant errors.\n\nScore: 1\nExplanation: The student's answer is incorrect and does not answer the question.\n\nScore: 4\nExplanation: The student's answer is a perfect match to the mark scheme. They have defined global warming as the long-term rise in Earth's average temperature, mentioned greenhouse gases, and human activity as the causes, and stated that these causes lead to a temperature rise."
+  },
+  {
+    "question": "Describe the process of digestion.",
+    "student_answer": "Digestion breaks down food into nutrients . It starts in the mouth and continues in the stomach and intestines.",
+    "true_score": 1,
+    "predicted_score": 4,
+    "true_rationale": "Provides a vague or partial answer with little connection to the full explanation.",
+    "predicted_rationale": "The student's answer matches the mark scheme perfectly.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme perfectly.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may have some minor errors or lack some detail compared to the mark scheme.\n\nScore: 2\nExplanation: The student's answer is partially correct but may have significant errors or lack important details compared to the mark scheme.\n\nScore: 1\nExplanation: The student's answer is incorrect and does not match the mark scheme.\n\nScore: 4\nExplanation: The student's answer matches the mark scheme perfectly. They have described the process of digestion, mentioning that it starts in the mouth and continues in the stomach and intestines, and that the end result is the absorption of nutrients."
+  },
+  {
+    "question": "Describe the process of digestion.",
+    "student_answer": "Digestion breaks down food into nutrients that the body absorbs and starts in the mouth end in gut.",
+    "true_score": 2,
+    "predicted_score": 3,
+    "true_rationale": "Mentions some relevant content but omits important aspects or shows confusion.",
+    "predicted_rationale": "The student's answer correctly describes the process of digestion and mentions the role of the mouth, stomach, and intestines. They also mention the absorption of nutrients. However, they use the term \"nutrients\" instead of \"smaller molecules\" as in the mark scheme. This is a minor difference and won't significantly impact the understanding of the process.",
+    "raw_response": "Score: 3\nExplanation: The student's answer correctly describes the process of digestion and mentions the role of the mouth, stomach, and intestines. They also mention the absorption of nutrients. However, they use the term \"nutrients\" instead of \"smaller molecules\" as in the mark scheme. This is a minor difference and won't significantly impact the understanding of the process."
+  },
+  {
+    "question": "Describe the process of digestion.",
+    "student_answer": "Digestion breaks down food into nutrients . It starts in the mouth and continues in the stomach and intestines.",
+    "true_score": 3,
+    "predicted_score": 4,
+    "true_rationale": "Covers most key points but lacks complete explanation or one element.",
+    "predicted_rationale": "The student's answer matches the mark scheme perfectly.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme perfectly.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may have some minor errors or lack some detail compared to the mark scheme.\n\nScore: 2\nExplanation: The student's answer is partially correct but may have significant errors or lack important details compared to the mark scheme.\n\nScore: 1\nExplanation: The student's answer is incorrect and does not match the mark scheme.\n\nScore: 4\nExplanation: The student's answer matches the mark scheme perfectly. They have described the process of digestion, mentioning that it starts in the mouth and continues in the stomach and intestines, and that the end result is the absorption of nutrients."
+  },
+  {
+    "question": "Describe the process of digestion.",
+    "student_answer": "Digestion breaks down food into nutrients that the body absorbs. It starts in the mouth and continues in the stomach and intestines.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Clearly addresses all points in the mark scheme with accurate and complete information.",
+    "predicted_rationale": "The student's answer matches the mark scheme perfectly.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme perfectly.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may have some minor errors or lack some detail compared to the mark scheme.\n\nScore: 2\nExplanation: The student's answer is partially correct but may have significant errors or lack important details compared to the mark scheme.\n\nScore: 1\nExplanation: The student's answer is incorrect and does not match the mark scheme.\n\nScore: 4\nExplanation: The student's answer is a clear and accurate description of the process of digestion, mentioning the role of the mouth, stomach, and intestines, and the breakdown of food into nutrients for absorption."
+  },
+  {
+    "question": "What is democracy?",
+    "student_answer": "Democracy is a system of government that people use elect leaders.",
+    "true_score": 1,
+    "predicted_score": 3,
+    "true_rationale": "Provides a vague or partial answer with little connection to the full explanation.",
+    "predicted_rationale": "The student's definition of democracy is mostly accurate, but it lacks some detail. They mention that people elect leaders, but they don't specify that this is done through voting. They also mention that people have the power to influence laws and decisions, but they don't explicitly state that this is a key characteristic of democracy. However, the student's definition does imply that power belongs to the people, which is another important aspect of democracy. Overall, the student's definition is close to the mark scheme, but it could be more detailed and explicit.",
+    "raw_response": "Score: 3\nExplanation: The student's definition of democracy is mostly accurate, but it lacks some detail. They mention that people elect leaders, but they don't specify that this is done through voting. They also mention that people have the power to influence laws and decisions, but they don't explicitly state that this is a key characteristic of democracy. However, the student's definition does imply that power belongs to the people, which is another important aspect of democracy. Overall, the student's definition is close to the mark scheme, but it could be more detailed and explicit."
+  },
+  {
+    "question": "What is democracy?",
+    "student_answer": "Democracy is a system of government where people vote to elect leaders.",
+    "true_score": 2,
+    "predicted_score": 3,
+    "true_rationale": "Mentions some relevant content but omits important aspects or shows confusion.",
+    "predicted_rationale": "The student's definition is mostly accurate, but it lacks the complete idea that people have the power to influence laws and decisions. However, the student does mention that people elect leaders and have some form of power, which is a good start. The definition is clear and concise.",
+    "raw_response": "Score: 3\nExplanation: The student's definition is mostly accurate, but it lacks the complete idea that people have the power to influence laws and decisions. However, the student does mention that people elect leaders and have some form of power, which is a good start. The definition is clear and concise."
+  },
+  {
+    "question": "What is democracy?",
+    "student_answer": "Democracy is a system of government where people vote to elect leaders and influence decisions and laws.",
+    "true_score": 3,
+    "predicted_score": 4,
+    "true_rationale": "Covers most key points but lacks complete explanation or one element.",
+    "predicted_rationale": "The student's definition of democracy aligns well with the mark scheme, including all the required elements.",
+    "raw_response": "Score: 4\nExplanation: The student's definition of democracy aligns well with the mark scheme, including all the required elements."
+  },
+  {
+    "question": "What is democracy?",
+    "student_answer": "Democracy is a system of government where people vote to elect leaders and power to influence decisions and laws.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Clearly addresses all points in the mark scheme with accurate and complete information.",
+    "predicted_rationale": "The student's definition of democracy aligns well with the mark scheme, including all the required elements.",
+    "raw_response": "Score: 4\nExplanation: The student's definition of democracy aligns well with the mark scheme, including all the required elements."
+  },
+  {
+    "question": "What are the main functions of the brain?",
+    "student_answer": "The brain controls our body.",
+    "true_score": 1,
+    "predicted_score": 1,
+    "true_rationale": "Mentions general control but does not reference specific functions or processes.",
+    "predicted_rationale": "The student's answer is too brief and does not mention the main functions of the brain, such as processing sensory information, coordinating movement, and controlling higher functions like thought, memory, and emotions. The student's answer only mentions that the brain controls the body, but this is an oversimplification.",
+    "raw_response": "Score: 1\nExplanation: The student's answer is too brief and does not mention the main functions of the brain, such as processing sensory information, coordinating movement, and controlling higher functions like thought, memory, and emotions. The student's answer only mentions that the brain controls the body, but this is an oversimplification.\n\nScore: 2\nExplanation: The student's answer mentions that the brain controls bodily functions, but it does not mention the other main functions of the brain, such as processing sensory information, coordinating movement, and controlling higher functions like thought, memory, and emotions.\n\nScore: 3\nExplanation: The student's answer mentions that the brain controls bodily functions and processes sensory information. However, it does not mention the other main functions of the brain, such as coordinating movement and controlling higher functions like thought, memory, and emotions."
+  },
+  {
+    "question": "What are the main functions of the brain?",
+    "student_answer": "The brain controls the body and helps us feel things through our senses.",
+    "true_score": 2,
+    "predicted_score": 3,
+    "true_rationale": "Mentions bodily control and sensory processing but misses movement coordination and higher-level cognitive functions.",
+    "predicted_rationale": "The student's answer correctly identifies some of the main functions of the brain, including control of bodily functions and processing of sensory information. Additionally, the student mentions the role of the brain in helping us feel things, which can be interpreted as a reference to its role in sensory perception. However, the student's answer is incomplete as it does not mention the coordination of movement or the higher functions of thought, memory, and emotions.",
+    "raw_response": "Score: 3\nExplanation: The student's answer correctly identifies some of the main functions of the brain, including control of bodily functions and processing of sensory information. Additionally, the student mentions the role of the brain in helping us feel things, which can be interpreted as a reference to its role in sensory perception. However, the student's answer is incomplete as it does not mention the coordination of movement or the higher functions of thought, memory, and emotions.\n\nScore: 4\nExplanation: The student's answer correctly identifies all of the main functions of the brain as outlined in the mark scheme. The answer mentions that the brain controls bodily functions, processes sensory information, coordinates movement, and is responsible for thought, memory, and emotions. This is a complete and accurate answer.\n\nScore: 1\nExplanation: The student's answer does not mention any of the main"
+  },
+  {
+    "question": "What are the main functions of the brain?",
+    "student_answer": "The brain controls the body, helps us process senses, and lets us move.",
+    "true_score": 3,
+    "predicted_score": 3,
+    "true_rationale": "Mentions bodily control, sensory processing, and movement but omits higher functions like thinking and memory.",
+    "predicted_rationale": "The student's answer correctly identifies the main functions of the brain, including control of bodily functions, processing of sensory information, and coordination of movement. Additionally, the student briefly mentions higher functions, which is a bonus. However, the student does not explicitly mention higher functions, so the answer could be clearer.",
+    "raw_response": "Score: 3\nExplanation: The student's answer correctly identifies the main functions of the brain, including control of bodily functions, processing of sensory information, and coordination of movement. Additionally, the student briefly mentions higher functions, which is a bonus. However, the student does not explicitly mention higher functions, so the answer could be clearer.\n\nScore: 1\nExplanation: The student's answer is incomplete and does not mention all the required functions. The student only mentions that the brain controls the body and helps with senses and movement, but does not mention higher functions like thought, memory, and emotions.\n\nScore: 4\nExplanation: The student's answer is perfect and includes all the required functions with clear and concise language. The student mentions that the brain controls bodily functions, processes sensory information, coordinates movement, and is responsible for thought, memory, and emotions."
+  },
+  {
+    "question": "What are the main functions of the brain?",
+    "student_answer": "The brain controls our body, processes what we see and hear, lets us move, and is in charge of thinking and emotions.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Accurately includes all four elements: bodily control, sensory processing, movement coordination, and higher-level functions.",
+    "predicted_rationale": "The student's answer matches the mark scheme perfectly.",
+    "raw_response": "Score: 4\nExplanation: The student's answer matches the mark scheme perfectly.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may be missing some details or using incorrect terminology.\n\nScore: 2\nExplanation: The student's answer is partially correct but contains significant errors.\n\nScore: 1\nExplanation: The student's answer is incorrect and does not match the mark scheme.\n\nScore: 4\nExplanation: The student's answer is a perfect match to the mark scheme. They have identified the main functions of the brain: controlling bodily functions, processing sensory information, coordinating movement, and being responsible for thought, memory, and emotions."
+  },
+  {
+    "question": "Why is recycling important?",
+    "student_answer": "Recycling is good because it helps the Earth.",
+    "true_score": 1,
+    "predicted_score": 3,
+    "true_rationale": "Provides a vague benefit without specifying how recycling helps with resources, pollution, energy, or the environment.",
+    "predicted_rationale": "The student's answer correctly identifies that recycling is important, but it does not provide specific reasons. The mark scheme includes four reasons for why recycling is important, so a more detailed answer would have earned a higher score. However, the student's answer is still considered correct because it acknowledges the importance of recycling.",
+    "raw_response": "Score: 3\nExplanation: The student's answer correctly identifies that recycling is important, but it does not provide specific reasons. The mark scheme includes four reasons for why recycling is important, so a more detailed answer would have earned a higher score. However, the student's answer is still considered correct because it acknowledges the importance of recycling."
+  },
+  {
+    "question": "Why is recycling important?",
+    "student_answer": "Recycling is important because it reduces pollution and helps keep the planet cleaner.",
+    "true_score": 2,
+    "predicted_score": 2,
+    "true_rationale": "Mentions pollution reduction and implies environmental benefit but does not address conservation or energy saving.",
+    "predicted_rationale": "The student's answer mentions the reduction of pollution, but it does not fully address the importance of recycling by conserving natural resources, saving energy, and protecting the environment.",
+    "raw_response": "Score: 2\nExplanation: The student's answer mentions the reduction of pollution, but it does not fully address the importance of recycling by conserving natural resources, saving energy, and protecting the environment."
+  },
+  {
+    "question": "Why is recycling important?",
+    "student_answer": "Recycling is important because it conserves resources, reduces pollution, and saves energy.",
+    "true_score": 3,
+    "predicted_score": 3,
+    "true_rationale": "Mentions conservation, pollution reduction, and energy saving but omits explicit reference to environmental protection.",
+    "predicted_rationale": "The student's answer matches the mark scheme, but it could be more detailed. They have included all the necessary points, but they could expand on each one to make their answer more comprehensive. For example, they could explain how recycling conserves resources by discussing the concept of depleting natural resources and the importance of reducing our consumption. Similarly, they could explain how recycling reduces pollution by discussing the environmental impact of extracting and processing raw materials, and how recycling saves energy by discussing the energy required to produce new products versus the energy saved by recycling existing ones. Overall, a more detailed answer would demonstrate a better understanding of the topic.",
+    "raw_response": "Score: 3\nExplanation: The student's answer matches the mark scheme, but it could be more detailed. They have included all the necessary points, but they could expand on each one to make their answer more comprehensive. For example, they could explain how recycling conserves resources by discussing the concept of depleting natural resources and the importance of reducing our consumption. Similarly, they could explain how recycling reduces pollution by discussing the environmental impact of extracting and processing raw materials, and how recycling saves energy by discussing the energy required to produce new products versus the energy saved by recycling existing ones. Overall, a more detailed answer would demonstrate a better understanding of the topic."
+  },
+  {
+    "question": "Why is recycling important?",
+    "student_answer": "Recycling is important because it conserves natural resources, reduces pollution, saves energy, and protects the environment.",
+    "true_score": 4,
+    "predicted_score": 4,
+    "true_rationale": "Covers all four points in the mark scheme clearly and accurately.",
+    "predicted_rationale": "The student's answer perfectly matches the mark scheme.",
+    "raw_response": "Score: 4\nExplanation: The student's answer perfectly matches the mark scheme.\n\nScore: 3\nExplanation: The student's answer is mostly correct but may have some minor errors or lacks detail compared to the mark scheme.\n\nScore: 2\nExplanation: The student's answer is partially correct but may have significant errors or lack important information compared to the mark scheme.\n\nScore: 1\nExplanation: The student's answer is incorrect and does not match the mark scheme.\n\nScore: 4\nExplanation: The student's answer perfectly matches the mark scheme. The essay is well-written and covers all the required aspects of why recycling is important. The student has provided a clear and accurate response that includes all the key points from the mark scheme.\n\nHere's a possible essay from a student:\n\nRecycling is an essential practice that plays"
+  },
+  {
+    "question": "Describe how photosynthesis works.",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 0,
+    "predicted_score": 0,
+    "true_rationale": "",
+    "predicted_rationale": "The student's essay does not mention the key components of photosynthesis as stated in the mark scheme. The essay focuses on the greenhouse effect instead.",
+    "raw_response": "Score: 0\nExplanation: The student's essay does not mention the key components of photosynthesis as stated in the mark scheme. The essay focuses on the greenhouse effect instead.\n\n(Note: The mark scheme is provided for reference only and should not be used to grade the student's essay without considering the context of the assignment and the student's overall understanding of the topic.)"
+  },
+  {
+    "question": "What is the function of the heart in the human body?",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 0,
+    "predicted_score": 0,
+    "true_rationale": "",
+    "predicted_rationale": "The student's answer does not relate to the function of the heart in the human body. It discusses the greenhouse effect instead.",
+    "raw_response": "---\n\nScore: 0\nExplanation: The student's answer does not relate to the function of the heart in the human body. It discusses the greenhouse effect instead."
+  },
+  {
+    "question": "What causes tides in the ocean?",
+    "student_answer": "Greenhouse gases like CO2 help trap heat. This is called the greenhouse effect.",
+    "true_score": 0,
+    "predicted_score": 0,
+    "true_rationale": "",
+    "predicted_rationale": "The student's answer does not match the mark scheme. It mentions greenhouse gases and the greenhouse effect, but it does not explain what causes tides.",
+    "raw_response": "Score: 0\nExplanation: The student's answer does not match the mark scheme. It mentions greenhouse gases and the greenhouse effect, but it does not explain what causes tides.\n\nScore: 1\nExplanation: The student's answer mentions the moon's and sun's gravity, but it does not fully explain that these gravitational forces cause tides in the ocean.\n\nScore: 2\nExplanation: The student's answer correctly states that tides are caused by the gravitational pull of the moon and sun on Earth's oceans.\n\nScore: 3\nExplanation: The student's answer goes beyond the mark scheme by explaining that the gravitational forces of the moon and sun create bulges in the ocean, which result in high tides, and the absence of these forces causes low tides.\n\nScore: 4\nExplanation"
+  },
+  {
+    "question": "What is the water cycle?",
+    "student_answer": "Water is wet and it\u2019s everywhere on Earth.",
+    "true_score": 0,
+    "predicted_score": 0,
+    "true_rationale": "Does not describe any part of the water cycle or its stages.",
+    "predicted_rationale": "The essay does not mention the key concepts of the water cycle (evaporation, condensation, precipitation, and collection). The student's response is not related to the topic.",
+    "raw_response": "Score: 0\nExplanation: The essay does not mention the key concepts of the water cycle (evaporation, condensation, precipitation, and collection). The student's response is not related to the topic."
+  },
+  {
+    "question": "What is photosynthesis?",
+    "student_answer": "Photosynthesis is when plants sleep during the night.",
+    "true_score": 0,
+    "predicted_score": 0,
+    "true_rationale": "Completely incorrect; refers to plant behavior unrelated to photosynthesis.",
+    "predicted_rationale": "The student's definition of photosynthesis is incorrect. Photosynthesis is not a process that occurs during sleep, but rather a process that occurs during the day when plants use sunlight to produce food and release oxygen.",
+    "raw_response": "Score: 0\nExplanation: The student's definition of photosynthesis is incorrect. Photosynthesis is not a process that occurs during sleep, but rather a process that occurs during the day when plants use sunlight to produce food and release oxygen."
+  },
+  {
+    "question": "What is photosynthesis?",
+    "student_answer": " ",
+    "true_score": 0,
+    "predicted_score": 4,
+    "true_rationale": "Completely incorrect; refers to plant behavior unrelated to photosynthesis.",
+    "predicted_rationale": "The student's definition of photosynthesis is accurate and includes all the necessary components.",
+    "raw_response": "---\n\nScore: 4\nExplanation: The student's definition of photosynthesis is accurate and includes all the necessary components.\n\n---\n\nScore: 3\nExplanation: The student's definition of photosynthesis is mostly accurate but may be missing some details or components.\n\n---\n\nScore: 2\nExplanation: The student's definition of photosynthesis is partially incorrect or incomplete.\n\n---\n\nScore: 1\nExplanation: The student's definition of photosynthesis is significantly incorrect or does not include the necessary components."
+  },
+  {
+    "question": "Explain how gravity works.",
+    "student_answer": "Gravity is when people fall because they are clumsy.",
+    "true_score": 0,
+    "predicted_score": 1,
+    "true_rationale": "Describes falling in terms of clumsiness, not physical forces.",
+    "predicted_rationale": "The student's explanation does not mention gravity as a force of attraction, nor does it mention mass or weight, and it does not describe the direction as being toward the Earth. Instead, it describes gravity as a result of clumsiness, which is not an accurate description.",
+    "raw_response": "Score: 1\nExplanation: The student's explanation does not mention gravity as a force of attraction, nor does it mention mass or weight, and it does not describe the direction as being toward the Earth. Instead, it describes gravity as a result of clumsiness, which is not an accurate description."
+  },
+  {
+    "question": "What are renewable energy sources?",
+    "student_answer": "Electricity is made in wires and batteries.",
+    "true_score": 0,
+    "predicted_score": 1,
+    "true_rationale": "Fails to mention any renewable energy source or key concept.",
+    "predicted_rationale": "The student's essay does not mention renewable energy sources or their renewability. It only talks about electricity production methods that are not related to renewable energy.",
+    "raw_response": "Score: 1\nExplanation: The student's essay does not mention renewable energy sources or their renewability. It only talks about electricity production methods that are not related to renewable energy.\n\nScore: 2\nExplanation: The student's essay mentions one renewable energy source (solar) but does not mention its renewability or any other renewable energy sources.\n\nScore: 3\nExplanation: The student's essay mentions renewable energy sources and their renewability, but it does not mention any specific renewable energy sources (solar, wind, hydro, or geothermal).\n\nScore: 4\nExplanation: The student's essay mentions renewable energy sources, their renewability, and at least one specific renewable energy source (solar, wind, hydro, or geothermal).\n\n---\n\nScore: 1\nExplanation: The"
+  },
+  {
+    "question": "What is democracy?",
+    "student_answer": "Democracy is when kings rule fairly over their people.",
+    "true_score": 0,
+    "predicted_score": 1,
+    "true_rationale": "Confuses democracy with monarchy; no relevant points are made.",
+    "predicted_rationale": "The student's definition of democracy does not align with the mark scheme, which requires mention of voting, public participation, influence on laws or policies, and citizen power or equality. The student's definition focuses on the idea of fair rule by a king, which is not a defining characteristic of democracy.",
+    "raw_response": "Score: 1\nExplanation: The student's definition of democracy does not align with the mark scheme, which requires mention of voting, public participation, influence on laws or policies, and citizen power or equality. The student's definition focuses on the idea of fair rule by a king, which is not a defining characteristic of democracy."
+  },
+  {
+    "question": "What is the purpose of the digestive system?",
+    "student_answer": "",
+    "true_score": 0,
+    "predicted_score": -1,
+    "true_rationale": "Incorrect explanation; does not address digestion or related organs.",
+    "predicted_rationale": "Failed to parse",
+    "raw_response": "---\n\nStudent Answer:\nThe digestive system plays a crucial role in our body by breaking down the food we consume into smaller components that can be easily absorbed and utilized by the body for energy and growth. This process begins in the mouth where the food is chewed and mixed with saliva, which contains enzymes that start the breakdown of carbohydrates. The food then moves down the esophagus into the stomach, where it is mixed with stomach acid and more enzymes to break down proteins and further digest carbohydrates. The partially digested food then moves into the small intestine, where most of the nutrient absorption occurs. The small intestine is lined with tiny finger-like projections called villi, which increase the surface area for absorption. The nutrients are absorbed into the bloodstream and transported to various parts of the body for energy or growth. The waste products that are not absorbed are then"
+  }
+]

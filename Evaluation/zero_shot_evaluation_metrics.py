@@ -45,7 +45,7 @@ def compute_metrics(true, pred):
 
 def main():
     # Load main results
-    results_path = "results/zero_shot_results_mlx.json"
+    results_path = "results/zero_shot_results_mlx_2.json"
     data = load_jsonl(results_path)
     
     # Filter valid entries with numeric predicted scores

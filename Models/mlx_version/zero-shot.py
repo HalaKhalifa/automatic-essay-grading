@@ -6,8 +6,8 @@ from tqdm import tqdm
 model, tokenizer = load("mlx-community/Mistral-7B-Instruct-v0.2-4bit")
 
 # Define paths
-DATA_PATH = "data/essay-grading-criteria.json"
-OUTPUT_PATH = "results/zero_shot_results_mlx.json"
+DATA_PATH = "data/essay-grading-criteria-updated.json"
+OUTPUT_PATH = "results/zero_shot_results_mlx_2.json"
 
 # Prompt template
 def build_prompt(item):
@@ -58,7 +58,8 @@ for item in tqdm(dataset):
         "student_answer": item["student_answer"],
         "true_score": item["score"],
         "predicted_score": predicted_score,
-        "rationale": explanation,
+        "true_rationale": item.get("rationale", ""),
+        "predicted_rationale": explanation,
         "raw_response": response_text
     })
 
