@@ -1,0 +1,6 @@
+mlx
+mlx_lm
+transformers
+numpy
+jupyterlab
+ipywidgets
