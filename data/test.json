@@ -1,0 +1,562 @@
+[
+  {
+    "question": "What is a Convolutional Neural Network (CNN)?",
+    "reference_answer": "A CNN is a deep learning model that processes data with grid-like topology using convolutional and pooling layers, commonly applied to image recognition.",
+    "student_answer": "The CNN is a way to look at data.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 1,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Provides a vague or partial answer with little connection to the full explanation."
+  },
+  {
+    "question": "What is a Convolutional Neural Network (CNN)?",
+    "reference_answer": "A CNN is a deep learning model that processes data with grid-like topology using convolutional and pooling layers, commonly applied to image recognition.",
+    "student_answer": "CNNs are a type of neural network that look at pixels.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 2,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Mentions some relevant content but omits important aspects or shows confusion."
+  },
+  {
+    "question": "What is a Convolutional Neural Network (CNN)?",
+    "reference_answer": "A CNN is a deep learning model that processes data with grid-like topology using convolutional and pooling layers, commonly applied to image recognition.",
+    "student_answer": "CNNs are used in image recognition by using convolutional layers and pooling.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 3,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Covers most key points but lacks complete explanation or one element."
+  },
+  {
+    "question": "What is a Convolutional Neural Network (CNN)?",
+    "reference_answer": "A CNN is a deep learning model that processes data with grid-like topology using convolutional and pooling layers, commonly applied to image recognition.",
+    "student_answer": "A CNN is a deep learning model that processes data with grid-like topology using convolutional and pooling layers, commonly applied to image recognition.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 4,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Clearly addresses all points in the mark scheme with accurate and complete information."
+  },
+  {
+    "question": "What is a Generative Adversarial Network (GAN)?",
+    "reference_answer": "GANs use a generator to create realistic data and a discriminator to distinguish between real and generated data, improving generation through adversarial training.",
+    "student_answer": "GANs are about generation.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 1,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Provides a vague or partial answer with little connection to the full explanation."
+  },
+  {
+    "question": "What is a Generative Adversarial Network (GAN)?",
+    "reference_answer": "GANs use a generator to create realistic data and a discriminator to distinguish between real and generated data, improving generation through adversarial training.",
+    "student_answer": "GANs involve two models, one makes data and the other checks it.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 2,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Mentions some relevant content but omits important aspects or shows confusion."
+  },
+  {
+    "question": "What is a Generative Adversarial Network (GAN)?",
+    "reference_answer": "GANs use a generator to create realistic data and a discriminator to distinguish between real and generated data, improving generation through adversarial training.",
+    "student_answer": "GANs consist of a generator and a discriminator competing to improve data generation quality.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 3,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Covers most key points but lacks complete explanation or one element."
+  },
+  {
+    "question": "What is a Generative Adversarial Network (GAN)?",
+    "reference_answer": "GANs use a generator to create realistic data and a discriminator to distinguish between real and generated data, improving generation through adversarial training.",
+    "student_answer": "GANs use a generator to create realistic data and a discriminator to distinguish between real and generated data, improving generation through adversarial training.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 4,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Clearly addresses all points in the mark scheme with accurate and complete information."
+  },
+  {
+    "question": "What is YOLO in machine learning?",
+    "reference_answer": "YOLO (You Only Look Once) is a real-time object detection system that processes images in a single neural network evaluation, achieving both speed and accuracy.",
+    "student_answer": "YOLO sees things.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 1,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Provides a vague or partial answer with little connection to the full explanation."
+  },
+  {
+    "question": "What is YOLO in machine learning?",
+    "reference_answer": "YOLO (You Only Look Once) is a real-time object detection system that processes images in a single neural network evaluation, achieving both speed and accuracy.",
+    "student_answer": "YOLO detects objects in images all at once.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 2,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Mentions some relevant content but omits important aspects or shows confusion."
+  },
+  {
+    "question": "What is YOLO in machine learning?",
+    "reference_answer": "YOLO (You Only Look Once) is a real-time object detection system that processes images in a single neural network evaluation, achieving both speed and accuracy.",
+    "student_answer": "YOLO is an object detection system that predicts bounding boxes and class probabilities from entire images in one forward pass.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 3,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Covers most key points but lacks complete explanation or one element."
+  },
+  {
+    "question": "What is YOLO in machine learning?",
+    "reference_answer": "YOLO (You Only Look Once) is a real-time object detection system that processes images in a single neural network evaluation, achieving both speed and accuracy.",
+    "student_answer": "YOLO (You Only Look Once) is a real-time object detection system that processes images in a single neural network evaluation, achieving both speed and accuracy.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 4,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Clearly addresses all points in the mark scheme with accurate and complete information."
+  },
+  {
+    "question": "What is RCNN?",
+    "reference_answer": "RCNN (Region-based Convolutional Neural Network) generates region proposals and uses CNNs to classify each region, improving object detection accuracy.",
+    "student_answer": "RCNN is about detecting stuff.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 1,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Provides a vague or partial answer with little connection to the full explanation."
+  },
+  {
+    "question": "What is RCNN?",
+    "reference_answer": "RCNN (Region-based Convolutional Neural Network) generates region proposals and uses CNNs to classify each region, improving object detection accuracy.",
+    "student_answer": "RCNN finds regions and classifies them.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 2,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Mentions some relevant content but omits important aspects or shows confusion."
+  },
+  {
+    "question": "What is RCNN?",
+    "reference_answer": "RCNN (Region-based Convolutional Neural Network) generates region proposals and uses CNNs to classify each region, improving object detection accuracy.",
+    "student_answer": "RCNN extracts region proposals and uses CNN to classify them.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 3,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Covers most key points but lacks complete explanation or one element."
+  },
+  {
+    "question": "What is RCNN?",
+    "reference_answer": "RCNN (Region-based Convolutional Neural Network) generates region proposals and uses CNNs to classify each region, improving object detection accuracy.",
+    "student_answer": "RCNN (Region-based Convolutional Neural Network) generates region proposals and uses CNNs to classify each region, improving object detection accuracy.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 4,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Clearly addresses all points in the mark scheme with accurate and complete information."
+  },
+  {
+    "question": "What is a Variational Autoencoder (VAE)?",
+    "reference_answer": "VAEs are generative models that encode input data into a latent space with learned distributions and decode samples from that space to generate new data.",
+    "student_answer": "VAEs encode things.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 1,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Provides a vague or partial answer with little connection to the full explanation."
+  },
+  {
+    "question": "What is a Variational Autoencoder (VAE)?",
+    "reference_answer": "VAEs are generative models that encode input data into a latent space with learned distributions and decode samples from that space to generate new data.",
+    "student_answer": "A VAE is an autoencoder that samples from distributions.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 2,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Mentions some relevant content but omits important aspects or shows confusion."
+  },
+  {
+    "question": "What is a Variational Autoencoder (VAE)?",
+    "reference_answer": "VAEs are generative models that encode input data into a latent space with learned distributions and decode samples from that space to generate new data.",
+    "student_answer": "VAEs learn latent representations by encoding data into a probabilistic space and reconstructing from samples.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 3,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Covers most key points but lacks complete explanation or one element."
+  },
+  {
+    "question": "What is a Variational Autoencoder (VAE)?",
+    "reference_answer": "VAEs are generative models that encode input data into a latent space with learned distributions and decode samples from that space to generate new data.",
+    "student_answer": "VAEs are generative models that encode input data into a latent space with learned distributions and decode samples from that space to generate new data.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 4,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Clearly addresses all points in the mark scheme with accurate and complete information."
+  },
+  {
+    "question": "What is Transfer Learning?",
+    "reference_answer": "Transfer learning applies knowledge from large-scale pretrained models to solve specific tasks efficiently by reusing learned features and adapting them.",
+    "student_answer": "It uses something trained before.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 1,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Provides a vague or partial answer with little connection to the full explanation."
+  },
+  {
+    "question": "What is Transfer Learning?",
+    "reference_answer": "Transfer learning applies knowledge from large-scale pretrained models to solve specific tasks efficiently by reusing learned features and adapting them.",
+    "student_answer": "Transfer learning uses pretrained models on new problems.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 2,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Mentions some relevant content but omits important aspects or shows confusion."
+  },
+  {
+    "question": "What is Transfer Learning?",
+    "reference_answer": "Transfer learning applies knowledge from large-scale pretrained models to solve specific tasks efficiently by reusing learned features and adapting them.",
+    "student_answer": "Transfer learning involves fine-tuning models trained on large datasets for tasks with limited data.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 3,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Covers most key points but lacks complete explanation or one element."
+  },
+  {
+    "question": "What is Transfer Learning?",
+    "reference_answer": "Transfer learning applies knowledge from large-scale pretrained models to solve specific tasks efficiently by reusing learned features and adapting them.",
+    "student_answer": "Transfer learning applies knowledge from large-scale pretrained models to solve specific tasks efficiently by reusing learned features and adapting them.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 4,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Clearly addresses all points in the mark scheme with accurate and complete information."
+  },
+  {
+    "question": "What is Reinforcement Learning?",
+    "reference_answer": "Reinforcement learning is a feedback-based learning method where an agent learns optimal actions by exploring an environment and receiving scalar reward signals.",
+    "student_answer": "It's about rewards.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 1,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Provides a vague or partial answer with little connection to the full explanation."
+  },
+  {
+    "question": "What is Reinforcement Learning?",
+    "reference_answer": "Reinforcement learning is a feedback-based learning method where an agent learns optimal actions by exploring an environment and receiving scalar reward signals.",
+    "student_answer": "Reinforcement learning uses rewards to train models.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 2,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Mentions some relevant content but omits important aspects or shows confusion."
+  },
+  {
+    "question": "What is Reinforcement Learning?",
+    "reference_answer": "Reinforcement learning is a feedback-based learning method where an agent learns optimal actions by exploring an environment and receiving scalar reward signals.",
+    "student_answer": "Reinforcement learning involves agents learning through interactions with environments by receiving feedback via rewards or penalties.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 3,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Covers most key points but lacks complete explanation or one element."
+  },
+  {
+    "question": "What is Reinforcement Learning?",
+    "reference_answer": "Reinforcement learning is a feedback-based learning method where an agent learns optimal actions by exploring an environment and receiving scalar reward signals.",
+    "student_answer": "Reinforcement learning is a feedback-based learning method where an agent learns optimal actions by exploring an environment and receiving scalar reward signals.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 4,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Clearly addresses all points in the mark scheme with accurate and complete information."
+  },
+  {
+    "question": "What is a Decision Tree?",
+    "reference_answer": "A decision tree is a supervised learning algorithm that recursively splits data based on feature thresholds to build a tree structure for decision-making.",
+    "student_answer": "It's a tree for decisions.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 1,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Provides a vague or partial answer with little connection to the full explanation."
+  },
+  {
+    "question": "What is a Decision Tree?",
+    "reference_answer": "A decision tree is a supervised learning algorithm that recursively splits data based on feature thresholds to build a tree structure for decision-making.",
+    "student_answer": "A decision tree splits data by features.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 2,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Mentions some relevant content but omits important aspects or shows confusion."
+  },
+  {
+    "question": "What is a Decision Tree?",
+    "reference_answer": "A decision tree is a supervised learning algorithm that recursively splits data based on feature thresholds to build a tree structure for decision-making.",
+    "student_answer": "A decision tree uses feature-based splits to classify or predict outcomes.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 3,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Covers most key points but lacks complete explanation or one element."
+  },
+  {
+    "question": "What is a Decision Tree?",
+    "reference_answer": "A decision tree is a supervised learning algorithm that recursively splits data based on feature thresholds to build a tree structure for decision-making.",
+    "student_answer": "A decision tree is a supervised learning algorithm that recursively splits data based on feature thresholds to build a tree structure for decision-making.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 4,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Clearly addresses all points in the mark scheme with accurate and complete information."
+  },
+  {
+    "question": "What is Clustering in machine learning?",
+    "reference_answer": "Clustering is an unsupervised learning task where algorithms like K-Means identify inherent groupings in data based on similarity measures.",
+    "student_answer": "Clustering groups stuff.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 1,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Provides a vague or partial answer with little connection to the full explanation."
+  },
+  {
+    "question": "What is Clustering in machine learning?",
+    "reference_answer": "Clustering is an unsupervised learning task where algorithms like K-Means identify inherent groupings in data based on similarity measures.",
+    "student_answer": "Clustering separates data based on similarities.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 2,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Mentions some relevant content but omits important aspects or shows confusion."
+  },
+  {
+    "question": "What is Clustering in machine learning?",
+    "reference_answer": "Clustering is an unsupervised learning task where algorithms like K-Means identify inherent groupings in data based on similarity measures.",
+    "student_answer": "Clustering is an unsupervised learning technique to group data into similar clusters.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 3,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Covers most key points but lacks complete explanation or one element."
+  },
+  {
+    "question": "What is Clustering in machine learning?",
+    "reference_answer": "Clustering is an unsupervised learning task where algorithms like K-Means identify inherent groupings in data based on similarity measures.",
+    "student_answer": "Clustering is an unsupervised learning task where algorithms like K-Means identify inherent groupings in data based on similarity measures.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 4,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Clearly addresses all points in the mark scheme with accurate and complete information."
+  },
+  {
+    "question": "What is Feature Engineering?",
+    "reference_answer": "Feature engineering is the process of selecting, transforming, and constructing features from raw data to enhance model accuracy and interpretability.",
+    "student_answer": "It's about features.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 1,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Provides a vague or partial answer with little connection to the full explanation."
+  },
+  {
+    "question": "What is Feature Engineering?",
+    "reference_answer": "Feature engineering is the process of selecting, transforming, and constructing features from raw data to enhance model accuracy and interpretability.",
+    "student_answer": "Feature engineering creates better inputs for models.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 2,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Mentions some relevant content but omits important aspects or shows confusion."
+  },
+  {
+    "question": "What is Feature Engineering?",
+    "reference_answer": "Feature engineering is the process of selecting, transforming, and constructing features from raw data to enhance model accuracy and interpretability.",
+    "student_answer": "Feature engineering transforms raw data into meaningful features that improve model performance.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 3,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Covers most key points but lacks complete explanation or one element."
+  },
+  {
+    "question": "What is Feature Engineering?",
+    "reference_answer": "Feature engineering is the process of selecting, transforming, and constructing features from raw data to enhance model accuracy and interpretability.",
+    "student_answer": "Feature engineering is the process of selecting, transforming, and constructing features from raw data to enhance model accuracy and interpretability.",
+    "mark_scheme": {
+      "1": "Basic definition",
+      "2": "Mentions core components or idea",
+      "3": "Explains mechanism or structure",
+      "4": "Includes purpose or practical application"
+    },
+    "score": 4,
+    "instruction": "Grade this essay based on the mark scheme from the file.",
+    "rationale": "Clearly addresses all points in the mark scheme with accurate and complete information."
+  }
+]
