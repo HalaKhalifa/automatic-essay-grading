@@ -73,7 +73,7 @@ def formatting_prompts_func(examples):
     return { "text": texts }
 
 # Load dataset and apply formatting
-dataset = load_dataset("sue888888888888/essay-grading-criteria", split="train")
+dataset = load_dataset("sue888888888888/essay_grading_for_instruction_tuning", split="train")
 dataset = dataset.map(formatting_prompts_func, batched=True)
 
 
