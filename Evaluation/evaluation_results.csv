@@ -21,7 +21,7 @@ index,question,student_answer,true_score,pred_score,correct,full_response
 19,What is a Variational Autoencoder (VAE)?,VAEs are generative models that encode input data into a latent space with learned distributions and...,4,4,True,4
 20,What is Transfer Learning?,It uses something trained before....,1,1,True,1
 21,What is Transfer Learning?,Transfer learning uses pretrained models on new problems....,2,2,True,2
-22,What is Transfer Learning?,Transfer learning involves fine-tuning models trained on large datasets for tasks with limited data....,3,2,False,2
+22,What is Transfer Learning?,Transfer learning involves fine-tuning models trained on large datasets for tasks with limited data....,3,3,True,3
 23,What is Transfer Learning?,Transfer learning applies knowledge from large-scale pretrained models to solve specific tasks effic...,4,4,True,4
 24,What is Reinforcement Learning?,It's about rewards....,1,1,True,1
 25,What is Reinforcement Learning?,Reinforcement learning uses rewards to train models....,2,2,True,2
