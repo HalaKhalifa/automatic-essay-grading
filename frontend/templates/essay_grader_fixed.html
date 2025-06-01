@@ -1,3 +1,4 @@
+<!--essay_grader_fixed.html-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -458,7 +459,7 @@
         }
 
         // API Configuration
-        const API_BASE_URL = 'http://localhost:5000'; // Change this to your Flask API URL
+        const API_BASE_URL = 'http://localhost:5000';
 
         // Call Flask API to grade answer
         async function gradeAnswer(question, referenceAnswer, studentAnswer, markScheme) {
@@ -476,35 +477,29 @@
                     })
                 });
 
-                if (!response.ok) {
-                    const errorData = await response.json();
-                    throw new Error(errorData.error || 'API request failed');
-                }
-
                 const data = await response.json();
                 
-                if (data.success === false) {
-                    console.warn('API returned fallback result:', data.error);
+                if (!data.success) {
+                    console.error('API Error:', data.error);
+                    // Show the error to user instead of silently falling back
+                    alert(`Grading error: ${data.error || 'Unknown error'}. Please try again.`);
+                    throw new Error(data.error || 'API request failed');
                 }
 
-                // Transform API response to match expected format
-                const result = data.result;
                 return {
-                    score: result.total_score,
-                    maxScore: result.max_score,
-                    achievedMarks: result.marks_awarded,
+                    score: data.result.total_score,
+                    maxScore: data.result.max_score,
+                    achievedMarks: data.result.marks_awarded,
                     markScheme: markScheme,
-                    detailedFeedback: result.detailed_feedback,
+                    detailedFeedback: data.result.detailed_feedback || {},
                     modelUsed: data.model_used
                 };
 
             } catch (error) {
                 console.error('API Error:', error);
-                // Fallback to simple keyword matching if API fails
-                return fallbackGrading(question, referenceAnswer, studentAnswer, markScheme);
+                throw error;
             }
         }
-
         // Fallback grading function (local processing)
         function fallbackGrading(question, referenceAnswer, studentAnswer, markScheme) {
             const achievedMarks = [];
@@ -539,7 +534,7 @@
         // Handle form submission
         document.getElementById('gradingForm').addEventListener('submit', async function(e) {
             e.preventDefault();
-            
+    
             if (isLoading) return;
             
             const question = document.getElementById('questionText').value.trim();
@@ -583,8 +578,8 @@
                 displayResults(results);
                 
             } catch (error) {
+                alert('Grading failed. Please check your input and try again.');
                 console.error('Grading error:', error);
-                alert('An error occurred while grading the answer. Please check your API connection and try again.');
             } finally {
                 // Reset loading state
                 isLoading = false;

@@ -13,7 +13,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("Models/unsloth_version/evaluation_results.csv")
+    return pd.read_csv("results/model_with_fine_tuning_results.csv")
 
 df = load_data()
 
