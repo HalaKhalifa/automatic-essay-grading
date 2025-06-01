@@ -447,210 +447,110 @@
         </div>
     </div>
 
-    <script>
-        let isLoading = false;
+<script>
+    let isLoading = false;
 
-        // Load example data
-        function loadExample() {
-            document.getElementById('questionText').value = "What is the role of the United Nations?";
-            document.getElementById('referenceAnswer').value = "The UN promotes peace, security, human rights, and international cooperation among countries.";
-            document.getElementById('studentAnswer').value = "The United Nations helps maintain world peace, protect human rights, and support cooperation between countries.";
-        }
+    // Load example data
+    function loadExample() {
+        document.getElementById('questionText').value = "What is the role of the United Nations?";
+        document.getElementById('referenceAnswer').value = "The UN promotes peace, security, human rights, and international cooperation among countries.";
+        document.getElementById('studentAnswer').value = "The United Nations helps maintain world peace, protect human rights, and support cooperation between countries.";
+    }
 
-        // API Configuration
-        const API_BASE_URL = 'http://localhost:5000'; // Change this to your Flask API URL
+    // API Configuration
+    const API_BASE_URL = 'http://localhost:5000'; // Change this if deployed
 
-        // Call Flask API to grade answer
-        async function gradeAnswer(question, referenceAnswer, studentAnswer, markScheme) {
-            try {
-                const response = await fetch(`${API_BASE_URL}/grade`, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        question: question,
-                        reference_answer: referenceAnswer,
-                        student_answer: studentAnswer,
-                        mark_scheme: markScheme
-                    })
-                });
-
-                if (!response.ok) {
-                    const errorData = await response.json();
-                    throw new Error(errorData.error || 'API request failed');
-                }
-
-                const data = await response.json();
-                
-                if (data.success === false) {
-                    console.warn('API returned fallback result:', data.error);
-                }
-
-                // Transform API response to match expected format
-                const result = data.result;
-                return {
-                    score: result.total_score,
-                    maxScore: result.max_score,
-                    achievedMarks: result.marks_awarded,
-                    markScheme: markScheme,
-                    detailedFeedback: result.detailed_feedback,
-                    modelUsed: data.model_used
-                };
-
-            } catch (error) {
-                console.error('API Error:', error);
-                // Fallback to simple keyword matching if API fails
-                return fallbackGrading(question, referenceAnswer, studentAnswer, markScheme);
-            }
-        }
-
-        // Fallback grading function (local processing)
-        function fallbackGrading(question, referenceAnswer, studentAnswer, markScheme) {
-            const achievedMarks = [];
-            const studentLower = studentAnswer.toLowerCase();
-            
-            // Simple keyword matching simulation
-            for (const [markNum, criteria] of Object.entries(markScheme)) {
-                let achieved = false;
-                
-                // Basic keyword matching logic
-                if (criteria.toLowerCase().includes('peace') && studentLower.includes('peace')) achieved = true;
-                if (criteria.toLowerCase().includes('security') && studentLower.includes('peace')) achieved = true;
-                if (criteria.toLowerCase().includes('human rights') && studentLower.includes('human rights')) achieved = true;
-                if (criteria.toLowerCase().includes('cooperation') && studentLower.includes('cooperation')) achieved = true;
-                if (criteria.toLowerCase().includes('international') && (studentLower.includes('international') || studentLower.includes('countries'))) achieved = true;
-                if (criteria.toLowerCase().includes('global') && studentLower.includes('world')) achieved = true;
-                
-                if (achieved) {
-                    achievedMarks.push(parseInt(markNum));
-                }
-            }
-            
-            return {
-                score: achievedMarks.length,
-                maxScore: Object.keys(markScheme).length,
-                achievedMarks: achievedMarks,
-                markScheme: markScheme,
-                modelUsed: 'fallback'
-            };
-        }
-
-        // Handle form submission
-        document.getElementById('gradingForm').addEventListener('submit', async function(e) {
-            e.preventDefault();
-            
-            if (isLoading) return;
-            
-            const question = document.getElementById('questionText').value.trim();
-            const referenceAnswer = document.getElementById('referenceAnswer').value.trim();
-            const studentAnswer = document.getElementById('studentAnswer').value.trim();
-            
-            if (!question || !referenceAnswer || !studentAnswer) {
-                alert('Please fill in all required fields.');
-                return;
-            }
-
-            // Get marking scheme (fixed to 4 items)
-            const markSchemeElements = document.querySelectorAll('.mark-scheme-item');
-            const markScheme = {};
-            
-            markSchemeElements.forEach((element, index) => {
-                const description = element.querySelector('.mark-description').value.trim();
-                if (description) {
-                    markScheme[index + 1] = description;
-                }
+    // Call Flask API to grade answer
+    async function gradeAnswer(question, referenceAnswer, studentAnswer, markScheme) {
+        try {
+            const response = await fetch(`${API_BASE_URL}/grade`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    question: question,
+                    reference_answer: referenceAnswer,
+                    student_answer: studentAnswer,
+                    mark_scheme: markScheme
+                })
             });
 
-            if (Object.keys(markScheme).length === 0) {
-                alert('Please fill in the marking criteria.');
-                return;
-            }
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error('API Error:', error);
+            return { success: false, error: error.message };
+        }
+    }
 
-            // Show loading state
-            isLoading = true;
-            document.getElementById('gradeBtn').disabled = true;
-            document.getElementById('gradeBtn').textContent = 'Grading with AI...';
-            document.getElementById('emptyState').style.display = 'none';
-            document.getElementById('loadingState').style.display = 'block';
-            document.getElementById('resultContainer').classList.remove('show');
+    // Handle form submission
+    document.getElementById('gradingForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
 
-            try {
-                // Get AI grading results from Flask API
-                const results = await gradeAnswer(question, referenceAnswer, studentAnswer, markScheme);
-                
-                // Display results
-                displayResults(results);
-                
-            } catch (error) {
-                console.error('Grading error:', error);
-                alert('An error occurred while grading the answer. Please check your API connection and try again.');
-            } finally {
-                // Reset loading state
-                isLoading = false;
-                document.getElementById('gradeBtn').disabled = false;
-                document.getElementById('gradeBtn').textContent = 'Grade Answer';
-                document.getElementById('loadingState').style.display = 'none';
+        if (isLoading) return;
+
+        const question = document.getElementById('questionText').value.trim();
+        const referenceAnswer = document.getElementById('referenceAnswer').value.trim();
+        const studentAnswer = document.getElementById('studentAnswer').value.trim();
+
+        if (!question || !referenceAnswer || !studentAnswer) {
+            alert('Please fill in all required fields.');
+            return;
+        }
+
+        // Get marking scheme (fixed to 4 items)
+        const markSchemeElements = document.querySelectorAll('.mark-scheme-item');
+        const markScheme = {};
+
+        markSchemeElements.forEach((element, index) => {
+            const description = element.querySelector('.mark-description').value.trim();
+            if (description) {
+                markScheme[index + 1] = description;
             }
         });
 
-        function displayResults(results) {
-            const totalScore = document.getElementById('totalScore');
-            const scoreBreakdown = document.getElementById('scoreBreakdown');
-            const resultContainer = document.getElementById('resultContainer');
+        if (Object.keys(markScheme).length === 0) {
+            alert('Please fill in the marking criteria.');
+            return;
+        }
 
-            // Display total score
-            totalScore.textContent = `${results.score}/${results.maxScore}`;
-            
-            // Create breakdown HTML
-            let breakdownHTML = `
-                <div class="achieved-criteria" style="font-weight: bold; font-size: 1.1rem; border-bottom: 2px solid #3498db; margin-bottom: 15px;">
-                    <span>Final Score: ${results.score}/${results.maxScore} marks</span>
-                    <span style="background: linear-gradient(135deg, #3498db, #9b59b6); color: white; padding: 6px 15px; border-radius: 20px;">
-                        ${Math.round((results.score / results.maxScore) * 100)}%
-                    </span>
-                </div>
-            `;
+        // Show loading state
+        isLoading = true;
+        document.getElementById('gradeBtn').disabled = true;
+        document.getElementById('gradeBtn').textContent = 'Grading...';
+        document.getElementById('emptyState').style.display = 'none';
+        document.getElementById('loadingState').style.display = 'block';
+        document.getElementById('resultContainer').classList.remove('show');
 
-            // Add model info
-            if (results.modelUsed) {
-                const modelInfo = results.modelUsed === 'fallback' ? 'Keyword Matching (Fallback)' : `AI Model: ${results.modelUsed}`;
-                breakdownHTML += `
-                    <div style="text-align: center; margin-bottom: 15px; padding: 8px; background: #e8f4f8; border-radius: 8px; font-size: 0.9rem; color: #2c3e50;">
-                        <strong>Graded using:</strong> ${modelInfo}
-                    </div>
-                `;
+        try {
+            // Get AI grading results from Flask API
+            const result = await gradeAnswer(question, referenceAnswer, studentAnswer, markScheme);
+
+            const scoreDisplay = document.getElementById('totalScore');
+            if (result.success && result.pred_score !== null && result.pred_score !== undefined) {
+                scoreDisplay.textContent = `Predicted Score: ${result.pred_score}`;
+            } else {
+                scoreDisplay.textContent = `Error: ${result.error || 'Unable to predict score.'}`;
             }
-            
-            Object.entries(results.markScheme).forEach(([markNum, criteria]) => {
-                const achieved = results.achievedMarks.includes(parseInt(markNum));
-                let reason = '';
-                
-                // Add detailed feedback if available
-                if (results.detailedFeedback && results.detailedFeedback[markNum]) {
-                    reason = results.detailedFeedback[markNum].reason;
-                }
-                
-                breakdownHTML += `
-                    <div class="achieved-criteria">
-                        <span class="criteria-description">
-                            <strong>Mark ${markNum}:</strong> ${criteria}
-                            ${reason ? `<br><small style="color: #7f8c8d;">${reason}</small>` : ''}
-                        </span>
-                        <span class="${achieved ? 'criteria-achieved' : 'criteria-missed'}">
-                            ${achieved ? '✓ Achieved' : '✗ Missed'}
-                        </span>
-                    </div>
-                `;
-            });
-            
-            scoreBreakdown.innerHTML = breakdownHTML;
-            
+
             // Show results with animation
             setTimeout(() => {
-                resultContainer.classList.add('show');
+                document.getElementById('resultContainer').classList.add('show');
             }, 100);
+
+        } catch (error) {
+            console.error('Grading error:', error);
+            alert('An error occurred while grading the answer. Please check your API connection and try again.');
+        } finally {
+            // Reset loading state
+            isLoading = false;
+            document.getElementById('gradeBtn').disabled = false;
+            document.getElementById('gradeBtn').textContent = 'Grade Answer';
+            document.getElementById('loadingState').style.display = 'none';
         }
-    </script>
+    });
+</script>
+
 </body>
 </html>
