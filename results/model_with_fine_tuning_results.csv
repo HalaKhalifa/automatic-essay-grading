@@ -1,11 +1,11 @@
 index,question,student_answer,true_score,pred_score,correct,full_response
 0,What is a Convolutional Neural Network (CNN)?,The CNN is a way to look at data....,1,1,True,1
 1,What is a Convolutional Neural Network (CNN)?,CNNs are a type of neural network that look at pixels....,2,1,False,1
-2,What is a Convolutional Neural Network (CNN)?,CNNs are used in image recognition by using convolutional layers and pooling....,3,2,False,2
+2,What is a Convolutional Neural Network (CNN)?,CNNs are used in image recognition by using convolutional layers and pooling....,3,3,True,3
 3,What is a Convolutional Neural Network (CNN)?,A CNN is a deep learning model that processes data with grid-like topology using convolutional and p...,4,4,True,4
 4,What is a Generative Adversarial Network (GAN)?,GANs are about generation....,1,1,True,1
 5,What is a Generative Adversarial Network (GAN)?,"GANs involve two models, one makes data and the other checks it....",2,2,True,2
-6,What is a Generative Adversarial Network (GAN)?,GANs consist of a generator and a discriminator competing to improve data generation quality....,3,2,False,2
+6,What is a Generative Adversarial Network (GAN)?,GANs consist of a generator and a discriminator competing to improve data generation quality....,3,3,True,3
 7,What is a Generative Adversarial Network (GAN)?,GANs use a generator to create realistic data and a discriminator to distinguish between real and ge...,4,4,True,4
 8,What is YOLO in machine learning?,YOLO sees things....,1,1,True,1
 9,What is YOLO in machine learning?,YOLO detects objects in images all at once....,2,2,True,2
@@ -21,7 +21,7 @@ index,question,student_answer,true_score,pred_score,correct,full_response
 19,What is a Variational Autoencoder (VAE)?,VAEs are generative models that encode input data into a latent space with learned distributions and...,4,4,True,4
 20,What is Transfer Learning?,It uses something trained before....,1,1,True,1
 21,What is Transfer Learning?,Transfer learning uses pretrained models on new problems....,2,2,True,2
-22,What is Transfer Learning?,Transfer learning involves fine-tuning models trained on large datasets for tasks with limited data....,3,2,False,2
+22,What is Transfer Learning?,Transfer learning involves fine-tuning models trained on large datasets for tasks with limited data....,3,3,True,3
 23,What is Transfer Learning?,Transfer learning applies knowledge from large-scale pretrained models to solve specific tasks effic...,4,4,True,4
 24,What is Reinforcement Learning?,It's about rewards....,1,1,True,1
 25,What is Reinforcement Learning?,Reinforcement learning uses rewards to train models....,2,2,True,2
@@ -36,6 +36,6 @@ index,question,student_answer,true_score,pred_score,correct,full_response
 34,What is Clustering in machine learning?,Clustering is an unsupervised learning technique to group data into similar clusters....,3,2,False,2
 35,What is Clustering in machine learning?,Clustering is an unsupervised learning task where algorithms like K-Means identify inherent grouping...,4,4,True,4
 36,What is Feature Engineering?,It's about features....,1,1,True,1
-37,What is Feature Engineering?,Feature engineering creates better inputs for models....,2,1,False,1
+37,What is Feature Engineering?,Feature engineering creates better inputs for models....,2,2,True,2
 38,What is Feature Engineering?,Feature engineering transforms raw data into meaningful features that improve model performance....,3,3,True,3
 39,What is Feature Engineering?,"Feature engineering is the process of selecting, transforming, and constructing features from raw da...",4,4,True,4
