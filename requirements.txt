@@ -1,6 +1,7 @@
-mlx
-mlx_lm
 transformers
+torch
+gradio
+unsloth
 numpy
 jupyterlab
 ipywidgets
