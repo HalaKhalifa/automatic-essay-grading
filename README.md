@@ -81,9 +81,9 @@ Manual grading is time-consuming and inconsistent. This project develops an auto
 
 ## 🔗 Resources
 
-🔗 Model on Hugging Face
-🔗 Training Dataset
-🔗 GitHub Repo
+🔗 Model → [`Mistral-7B-Instruct`](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)
+🔗 Fine-tuning Tool → [`Unsloth`](https://docs.unsloth.ai/get-started/fine-tuning-guide) - LoRA 4-bit
+🔗 Dataset → Custom-annotated JSON format
 
 ## 👩💻 Authors
 
