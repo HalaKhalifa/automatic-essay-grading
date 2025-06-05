@@ -1,0 +1,9 @@
+unsloth
+transformers
+torch
+trl
+datasets
+numpy
+sklearn
+tqdm
+jupyterlab
