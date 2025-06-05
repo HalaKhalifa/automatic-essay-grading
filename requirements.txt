@@ -1,7 +1,0 @@
-transformers
-torch
-gradio
-unsloth
-numpy
-jupyterlab
-ipywidgets
